@@ -6,7 +6,6 @@ venv/
 
 # Hasil generate: bisa dibuat ulang kapan saja dari katalog + resep + seed,
 # jadi tidak perlu disimpan di git (ukurannya besar dan berubah tiap run).
-data/
 data/demo/
 data/demo_5warung/
 
