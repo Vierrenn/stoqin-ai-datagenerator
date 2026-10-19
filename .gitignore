@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Hasil generate: bisa dibuat ulang kapan saja dari katalog + resep + seed,
+# jadi tidak perlu disimpan di git (ukurannya besar dan berubah tiap run).
+data/
+data/demo/
+data/demo_5warung/
+
+# Katalog induk IPOS (23 MB) beserta turunannya. Sumbernya berkas pihak ketiga,
+# turunannya dapat dibangkitkan ulang dari berkas tersebut.
+data/induk/
+
+.DS_Store
+Thumbs.db
+.vscode/
