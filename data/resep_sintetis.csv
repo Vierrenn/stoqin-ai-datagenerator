@@ -1,0 +1,61 @@
+sku_id,tipe_demand,prob_laku,qty_min,qty_maks,prob_bulk,bulk_min,bulk_maks,catatan,rata_harian_target
+BRS-001,stabil_tinggi,1.0,8,22,0.05,10,25,"bahan pokok, sesekali dikulak warung makan",15.88
+MIE-001,stabil_tinggi,1.0,8,20,0.04,20,40,"terlaris, kadang dibeli per dus isi 40",15.2
+MIM-001,stabil_tinggi,1.0,5,15,0.05,12,24,kadang dibeli per dus isi 24,10.9
+MIE-002,stabil_tinggi,1.0,4,12,0.03,20,40,kadang dibeli per dus,8.9
+BRS-004,stabil_tinggi,1.0,1,6,0.03,5,12,"bahan pokok, lonjakan saat hajatan",3.76
+MIE-003,stabil_tinggi,1.0,3,9,0.03,20,40,kadang dibeli per dus,6.9
+BUM-004,stabil_tinggi,1.0,3,9,0.0,0,0,"bumbu masak harian, tanpa pembelian besar",6.0
+MIN-001,stabil_sedang,1.0,1,4,0.03,4,10,minyak goreng harian,2.71
+KOP-001,stabil_tinggi,1.0,2,8,0.0,0,0,kopi sachet paling laku,5.0
+KOP-005,stabil_tinggi,1.0,2,8,0.0,0,0,minuman siap minum harian,5.0
+ROK-001,stabil_tinggi,1.0,3,7,0.0,0,0,"penjualan bungkusan, eceran batangan tidak dimodelkan",5.0
+ROK-002,stabil_tinggi,1.0,2,6,0.0,0,0,penjualan bungkusan,4.0
+ROK-003,stabil_tinggi,1.0,1,5,0.0,0,0,penjualan bungkusan,3.0
+SAB-002,stabil_tinggi,1.0,3,10,0.0,0,0,sachet mandi harian,6.5
+CUC-001,stabil_tinggi,1.0,4,12,0.0,0,0,sachet cuci harian,8.0
+KOP-002,stabil_sedang,1.0,2,6,0.0,0,0,kopi sachet harian,4.0
+MIN-003,intermittent,0.75,1,3,0.02,4,8,"pilihan lebih murah, kadang dikulak warung makan",1.62
+BUM-003,stabil_tinggi,1.0,2,9,0.0,0,0,pendamping gorengan,5.5
+BUM-001,stabil_sedang,1.0,2,7,0.0,0,0,pendamping makan,4.5
+BUM-005,stabil_sedang,1.0,2,7,0.0,0,0,bumbu masak harian,4.5
+KOP-003,stabil_sedang,0.9,1,4,0.0,0,0,kopi sachet varian,2.25
+MIM-003,stabil_sedang,1.0,1,6,0.0,0,0,minuman siap minum,3.5
+TEL-001,rutin_bulk,1.0,2,6,0.07,10,25,"permintaan harian rendah, lonjakan besar saat hajatan",5.22
+MIM-002,stabil_tinggi,1.0,6,16,0.04,5,10,"biasanya 1 sampai 3 galon, kadang diborong",11.3
+GAS-001,rutin_bulk,1.0,2,8,0.06,4,8,"biasanya eceran, kadang diborong warung makan",5.36
+CUC-004,stabil_sedang,0.95,1,6,0.0,0,0,"pewangi, tidak dibeli tiap hari",3.32
+SUS-004,intermittent,0.7,1,4,0.0,0,0,"susu kotak, pembeli anak sekolah",1.75
+BRS-005,intermittent,0.6,1,3,0.0,0,0,sekali beli tahan lama,1.2
+SUS-002,intermittent,0.6,1,3,0.0,0,0,sachet susu,1.2
+SNK-002,intermittent,0.6,1,4,0.0,0,0,snack anak,1.5
+SAB-001,intermittent,0.6,1,3,0.0,0,0,"sabun batang, sekali beli tahan lama",1.2
+RTG-001,intermittent,0.6,1,3,0.0,0,0,"korek, sekali beli tahan lama",1.2
+MIE-004,intermittent,0.6,1,3,0.0,0,0,lebih mahal dari mie bungkus,1.2
+SUS-003,intermittent,0.55,1,3,0.0,0,0,sachet susu bubuk,1.1
+SNK-005,intermittent,0.55,1,3,0.0,0,0,snack kacang,1.1
+CUC-003,intermittent,0.55,1,2,0.0,0,0,"sabun cuci piring, sekali beli tahan lama",0.82
+BUM-006,intermittent,0.5,1,3,0.0,0,0,bumbu instan varian,1.0
+SAB-003,intermittent,0.45,1,2,0.0,0,0,"pasta gigi, sekali beli tahan lama",0.68
+KOP-004,intermittent,0.4,1,2,0.0,0,0,"teh celup kotak, tahan lama",0.6
+BUM-007,intermittent,0.4,1,2,0.0,0,0,"terasi, dipakai sedikit",0.6
+OBT-002,intermittent,0.35,1,3,0.0,0,0,"obat, dibeli saat perlu",0.7
+BUM-008,intermittent,0.3,1,2,0.0,0,0,"merica, dipakai sedikit",0.45
+OBT-001,intermittent,0.3,1,2,0.0,0,0,"obat, dibeli saat perlu",0.45
+OBT-003,intermittent,0.25,1,2,0.0,0,0,"obat, dibeli saat perlu",0.38
+RTG-002,intermittent,0.15,1,2,0.0,0,0,"baterai, jarang dicari",0.22
+SUS-001,lumpy_bulk,0.5,1,3,0.05,4,10,lonjakan saat hajatan atau membuat kue,1.35
+SNK-001,lumpy_bulk,0.5,1,3,0.05,4,10,kadang diborong untuk acara,1.35
+BRS-003,lumpy_bulk,0.5,1,2,0.06,3,8,"dipakai gorengan dan kue, kadang borongan",1.08
+BUM-002,lumpy_bulk,0.35,1,2,0.01,4,10,"botol, sekali beli tahan lama",0.6
+MIM-004,lumpy_bulk,0.45,1,3,0.04,4,12,kadang dibeli banyak untuk acara,1.22
+SNK-003,lumpy_bulk,0.45,1,3,0.05,5,12,kadang diborong untuk acara,1.33
+SNK-004,lumpy_bulk,0.45,1,3,0.05,5,12,kadang diborong untuk acara,1.33
+BRS-002,lumpy_bulk,0.6,1,2,0.06,4,10,"pembeli berdaya beli lebih baik, sekali beli banyak",1.32
+MIM-005,lumpy_bulk,0.4,1,3,0.03,4,10,kadang dibeli banyak saat acara olahraga,1.01
+MIN-002,lumpy_bulk,0.25,1,2,0.02,3,6,"kemasan besar, sekali beli tahan lama",0.46
+CUC-002,lumpy_bulk,0.4,1,2,0.0,0,0,"kemasan besar, sekali beli tahan lama",0.6
+RTG-004,lumpy_bulk,0.4,1,2,0.0,0,0,"tisu, sekali beli tahan lama",0.6
+SAB-004,intermittent,0.2,1,2,0.0,0,0,"refill, sekali beli tahan lama",0.3
+SEK-001,musiman,0.18,1,3,0.03,5,12,melonjak saat awal tahun ajaran,0.62
+RTG-003,event,0.1,1,2,0.01,4,12,diborong saat mati lampu,0.23
