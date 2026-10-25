@@ -25,6 +25,7 @@ BOBOT_POPULARITAS = {5: 100.0, 4: 30.0, 3: 8.0, 2: 3.0, 1: 1.0}
 WARUNG_KECIL = ("A", "C", "E")
 BOBOT_KELAS_WARUNG_KECIL = {"murah": 1.5, "sedang": 1.0, "mahal": 0.5}
 PORSI_PASTI = 0.5
+URUTAN_KELAS = {"murah": 0, "sedang": 1, "mahal": 2}
 
 KOLOM = ["store_id", "kode", "nama", "kategori", "satuan", "ukuran", "kelas_harga",
          "popularitas", "peringkat"]
@@ -37,6 +38,22 @@ def bobot(barang: pd.DataFrame, profil: ProfilWarung) -> pd.Series:
     for pola, pengali in profil.bobot_nama:
         b = b.where(~barang["nama"].str.upper().str.contains(pola), b * pengali)
     return b
+
+
+def ukuran_dasar(ukuran: pd.Series) -> pd.Series:
+    """Ukuran dalam gram atau mililiter; kosong atau tidak terbaca dianggap tak hingga."""
+    angka = ukuran.str.extract(r"^(\d+(?:\.\d+)?)\s*(kg|g|l|ml)$")
+    nilai = angka[0].astype(float) * angka[1].map({"kg": 1000, "l": 1000, "g": 1, "ml": 1})
+    return nilai.fillna(float("inf"))
+
+
+def urutkan(terpilih: pd.DataFrame) -> pd.DataFrame:
+    """Peringkat dalam kategori: popularitas tertinggi lebih dahulu; di antara popularitas
+    yang sama, barang lebih murah lalu kemasan lebih kecil, karena lebih sering dibeli."""
+    return (terpilih.assign(_kelas=terpilih["kelas_harga"].map(URUTAN_KELAS),
+                            _ukuran=ukuran_dasar(terpilih["ukuran"]))
+            .sort_values(["popularitas", "_kelas", "_ukuran", "_kunci"],
+                         ascending=[False, True, True, False]))
 
 
 def undi(barang: pd.DataFrame, jumlah: int, bobot_barang: pd.Series,
@@ -59,8 +76,7 @@ def pilih_rak(barang: pd.DataFrame, profil: ProfilWarung) -> pd.DataFrame:
         pasti = urutan.index[:math.ceil(int(jumlah) * PORSI_PASTI)]
         sisa = isi.drop(pasti)
         diundi = undi(sisa, int(jumlah) - len(pasti), b[sisa.index], rng)
-        terpilih = pd.concat([isi.loc[pasti].assign(_kunci=2.0), diundi])
-        terpilih = terpilih.sort_values(["popularitas", "_kunci"], ascending=False)
+        terpilih = urutkan(pd.concat([isi.loc[pasti].assign(_kunci=2.0), diundi]))
         bagian.append(terpilih.assign(peringkat=range(1, len(terpilih) + 1)))
     rak = pd.concat(bagian).assign(store_id=profil.kode)
     return rak[KOLOM].reset_index(drop=True)
