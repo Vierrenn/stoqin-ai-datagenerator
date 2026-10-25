@@ -31,7 +31,12 @@ TOLERANSI_RATA_HARIAN = 0.01
 
 
 def hitung_rata_harian(resep: pd.DataFrame) -> pd.Series:
-    normal = resep["prob_laku"] * (resep["qty_min"] + resep["qty_maks"]) / 2
+    """Rata-rata harian dari parameter. Resep dengan kolom rata_per_beli di atas nol
+    memakai sebaran geometrik, sehingga rata-rata per pembelian diambil dari kolom itu."""
+    per_beli = (resep["qty_min"] + resep["qty_maks"]) / 2
+    if "rata_per_beli" in resep:
+        per_beli = per_beli.where(resep["rata_per_beli"] <= 0, resep["rata_per_beli"])
+    normal = resep["prob_laku"] * per_beli
     bulk = resep["prob_bulk"] * (resep["bulk_min"] + resep["bulk_maks"]) / 2
     return normal + bulk
 
