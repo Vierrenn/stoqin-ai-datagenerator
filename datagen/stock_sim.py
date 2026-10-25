@@ -44,11 +44,11 @@ def _peta_offset(parameter: pd.DataFrame) -> dict:
 
 
 def _simulasi_satu_sku(permintaan: np.ndarray, unit_per_hari: float, lead_time: int,
-                       review_period: int, offset: int) -> pd.DataFrame:
+                       review_period: int, offset: int, stok_minimal: int = 0) -> pd.DataFrame:
     n = len(permintaan)
     siklus = lead_time + review_period
 
-    stok = round(unit_per_hari * siklus * PENYANGGA)
+    stok = max(stok_minimal, round(unit_per_hari * siklus * PENYANGGA))
     datang = np.zeros(n + lead_time + 1, dtype=int)
 
     kolom = {nama: np.zeros(n, dtype=int) for nama in
@@ -73,7 +73,8 @@ def _simulasi_satu_sku(permintaan: np.ndarray, unit_per_hari: float, lead_time: 
             awal = max(0, i - JENDELA_RATA_RATA + 1)
             laju = kolom["terjual"][awal:i + 1].mean() if i else unit_per_hari
             dalam_perjalanan = datang[i + 1:].sum()
-            pesan = max(0, round(laju * siklus * PENYANGGA) - stok - dalam_perjalanan)
+            target = max(stok_minimal, round(laju * siklus * PENYANGGA))
+            pesan = max(0, target - stok - dalam_perjalanan)
             if pesan:
                 datang[i + lead_time] += pesan
             kolom["dipesan"][i] = pesan
@@ -84,7 +85,7 @@ def _simulasi_satu_sku(permintaan: np.ndarray, unit_per_hari: float, lead_time: 
 
 
 def jalankan_simulasi(permintaan: pd.DataFrame, katalog: pd.DataFrame,
-                      hari_pemanasan: int = 0) -> pd.DataFrame:
+                      hari_pemanasan: int = 0, stok_minimal: int = 0) -> pd.DataFrame:
     """Menjalankan simulasi persediaan untuk seluruh SKU.
 
     Mengembalikan tabel harian gabungan berisi kolom permintaan, terjual,
@@ -94,8 +95,15 @@ def jalankan_simulasi(permintaan: pd.DataFrame, katalog: pd.DataFrame,
     hari_pemanasan menentukan jumlah hari pertama yang dibuang dari keluaran.
     Simulasi tetap dijalankan atas hari-hari tersebut, sehingga sisa data mewarisi
     kondisi persediaan yang sudah seimbang.
+
+    stok_minimal adalah batas bawah stok target saat kulakan. Tanpa batas ini, barang
+    sangat lambat yang sempat habis tidak pernah dipesan lagi: rata-rata penjualan
+    tercatatnya menjadi nol sehingga pesanan selalu dibulatkan ke nol. Apabila katalog
+    memiliki kolom stok_minimal, nilai per SKU tersebut yang dipakai.
     """
     parameter = katalog.set_index("sku_id")[["lead_time_hari", "review_period_hari"]]
+    minimal = (katalog.set_index("sku_id")["stok_minimal"] if "stok_minimal" in katalog
+               else pd.Series(stok_minimal, index=parameter.index))
     laju = permintaan.groupby("sku_id")["qty"].mean()
     offset = _peta_offset(parameter)
 
@@ -109,6 +117,7 @@ def jalankan_simulasi(permintaan: pd.DataFrame, katalog: pd.DataFrame,
             int(parameter.loc[sku_id, "lead_time_hari"]),
             review_period,
             offset[sku_id],
+            int(minimal[sku_id]),
         )
         gabung = pd.concat([kelompok.rename(columns={"qty": "permintaan"}), hasil], axis=1)
         bagian.append(gabung.iloc[hari_pemanasan:])
