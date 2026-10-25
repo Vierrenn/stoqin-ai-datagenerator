@@ -34,12 +34,21 @@ def _tarik_kuantitas(rng, batas_bawah: float, batas_atas: float) -> int:
     return max(1, int(round(rng.uniform(batas_bawah, batas_atas))))
 
 
-def _deret_satu_sku(baris, tanggal: pd.DatetimeIndex, rng) -> np.ndarray:
-    qty = np.zeros(len(tanggal), dtype=int)
+def _tarik_geometrik(rng, rata_rata: float, batas_atas: int) -> int:
+    """Kuantitas yang biasanya 1 dan sesekali lebih banyak, dengan rata-rata tertentu.
 
-    for i, t in enumerate(tanggal):
-        pengali = faktor_kalender(t, baris.sensitif_tanggal_muda)
+    Dipakai untuk barang yang tidak laku setiap hari. Sebaran seragam pada rentang
+    sempit tidak pernah menghasilkan variasi kuantitas yang cukup besar untuk pola
+    lumpy, sedangkan pembelian nyata atas barang lambat sesekali berjumlah beberapa
+    buah sekaligus.
+    """
+    return int(min(batas_atas, rng.geometric(min(1.0, 1.0 / max(rata_rata, 1.0)))))
 
+
+def _deret_satu_sku(baris, pengali_harian: np.ndarray, rng) -> np.ndarray:
+    qty = np.zeros(len(pengali_harian), dtype=int)
+
+    for i, pengali in enumerate(pengali_harian):
         # Pengaruh kalender diserap frekuensi selama peluang masih di bawah 1,
         # sisanya tumpah ke kuantitas. SKU berfrekuensi penuh dikecualikan: seluruh
         # pengaruh masuk ke kuantitas, karena hari sepi pada barang pokok berarti
@@ -53,7 +62,11 @@ def _deret_satu_sku(baris, tanggal: pd.DatetimeIndex, rng) -> np.ndarray:
 
         total = 0
         if rng.random() < peluang:
-            total += _tarik_kuantitas(rng, baris.qty_min * skala, baris.qty_maks * skala)
+            per_beli = getattr(baris, "rata_per_beli", 0)
+            if per_beli > 0:
+                total += _tarik_geometrik(rng, per_beli * skala, baris.qty_maks)
+            else:
+                total += _tarik_kuantitas(rng, baris.qty_min * skala, baris.qty_maks * skala)
 
         # Peluang pembelian besar ikut dipengaruhi kalender, sedangkan kuantitasnya
         # tidak: hajatan lebih sering terjadi pada tanggal muda, bukan lebih besar.
@@ -77,17 +90,28 @@ def bangkitkan_permintaan(
     utama, sehingga perubahan parameter satu SKU tidak menggeser hasil SKU lain.
     """
     tanggal = pd.date_range(tanggal_mulai, periods=jumlah_hari, freq="D")
+    pengali = np.array([[faktor_kalender(t, baris.sensitif_tanggal_muda) for t in tanggal]
+                        for baris in resep.itertuples()])
+    return bangkitkan_dengan_pengali(resep, tanggal, pengali, seed)
+
+
+def bangkitkan_dengan_pengali(resep: pd.DataFrame, tanggal: pd.DatetimeIndex,
+                              pengali: np.ndarray, seed: int) -> pd.DataFrame:
+    """Membangkitkan permintaan dengan pengali kalender yang dihitung di luar modul ini.
+
+    pengali berbentuk (jumlah SKU, jumlah hari), berurutan sama dengan baris resep.
+    """
     induk = np.random.SeedSequence(seed)
 
     bagian = []
-    for anak, baris in zip(induk.spawn(len(resep)), resep.itertuples()):
+    for anak, baris, deret_pengali in zip(induk.spawn(len(resep)), resep.itertuples(), pengali):
         bagian.append(
             pd.DataFrame(
                 {
                     "sku_id": baris.sku_id,
                     "date": tanggal,
                     "weekday": tanggal.day_name(),
-                    "qty": _deret_satu_sku(baris, tanggal, np.random.default_rng(anak)),
+                    "qty": _deret_satu_sku(baris, deret_pengali, np.random.default_rng(anak)),
                 }
             )
         )
