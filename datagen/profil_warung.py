@@ -38,6 +38,9 @@ MINIMUM_JENIS = {
 # (bulan, tanggal) awal dan akhir libur, berulang setiap tahun.
 LIBUR_SEKOLAH = (((6, 20), (7, 12)), ((12, 20), (1, 4)))
 LIBUR_SEMESTER = (((6, 15), (8, 10)), ((12, 20), (2, 10)))
+# Pembelian perlengkapan sekolah menjelang dan pada pekan pertama tahun ajaran baru.
+MUSIM_TAHUN_AJARAN = (((7, 5), (7, 18)),)
+FAKTOR_TAHUN_AJARAN = 2.0
 KATEGORI_SEKOLAH = ("snack", "permen dan coklat", "es krim", "alat tulis", "minuman ringan")
 POLA_BARANG_BAYI = (r"BABY|BAYI|BALITA|POPOK|DIAPER|POKO|SWEETY|POPOKU|ZWITSAL|CUSSONS"
                     r"|JOHNSON|JHONSON|TELON|PROMINA|MILNA|CERELAC|MP-ASI|\bSUN \d|SGM|LACTOGEN")
@@ -60,6 +63,9 @@ class ProfilWarung:
     transisi_libur_hari: int = 0
     # (pola nama, pengali bobot) untuk barang yang jarang dijual di lingkungan warung ini.
     bobot_nama: tuple = ()
+    # Pengali jadwal kulakan per kategori. Warung bermodal kecil berbelanja lebih sering
+    # dalam jumlah lebih sedikit.
+    pengali_kulakan: float = 1.0
 
 
 PROFIL = [
@@ -70,6 +76,7 @@ PROFIL = [
                    "beras dan pokok": 1.2, "alat tulis": 0.5, "es krim": 0.5,
                    "makanan kaleng": 0.7, "roti dan biskuit": 0.8, "snack": 0.8,
                    "permen dan coklat": 0.8, "obat warung": 0.8},
+        pengali_kulakan=0.5,
     ),
     ProfilWarung("B", "sembako menengah", 500, 1.0, 0.08, 20261102),
     ProfilWarung(
@@ -92,6 +99,7 @@ PROFIL = [
         gajian_semua_barang=True,
         libur=LIBUR_SEMESTER, faktor_libur=0.6, transisi_libur_hari=7,
         bobot_nama=((POLA_BARANG_BAYI, 0.2),),
+        pengali_kulakan=0.5,
     ),
 ]
 
@@ -170,6 +178,13 @@ def faktor_libur(profil: ProfilWarung, kategori: str, tanggal: date) -> float:
         return 1.0
     bobot = bobot_libur(profil.libur, tanggal, profil.transisi_libur_hari)
     return 1.0 - (1.0 - profil.faktor_libur) * bobot
+
+
+def faktor_musim(kategori: str, tanggal: date) -> float:
+    """Lonjakan alat tulis pada tahun ajaran baru, berlaku di semua warung."""
+    if kategori == "alat tulis" and bobot_libur(MUSIM_TAHUN_AJARAN, tanggal) > 0:
+        return FAKTOR_TAHUN_AJARAN
+    return 1.0
 
 
 if __name__ == "__main__":
