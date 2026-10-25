@@ -63,111 +63,58 @@ Seluruh hasil sudah ditinjau ulang.
 - Catatan: kopi (31 barang) dan air minum (16 barang) di bawah kebutuhan warung
   terbesar, karena versi satuannya memang sedikit di IPOS
 
-## Langkah 4: Profil lima warung
+## Langkah 4: Profil lima warung ✅
 
-Menentukan ciri tiap warung agar datanya berbeda satu sama lain.
+Lima profil (A gang, B standar, C sekolah, D besar, E kos) dengan jumlah barang,
+keramaian, kekuatan gajian, penekanan kategori, jumlah jenis minimal per kategori, masa
+libur (C libur sekolah, E libur semester bertahap), musim tahun ajaran baru untuk alat
+tulis, dan jadwal kulakan (A dan E dua kali lebih sering).
 
-| warung | ciri | barang | keramaian | gajian |
-| --- | --- | --- | --- | --- |
-| A | gang kecil, belanja harian kecil | 250 | 0,6 | 0,04 |
-| B | sembako menengah, warung standar | 500 | 1,0 | 0,08 |
-| C | dekat sekolah, sepi saat libur sekolah | 400 | 0,8 | 0,04 |
-| D | kelontong besar, barang paling beragam | 900 | 1,5 | 0,08 |
-| E | dekat kos atau kampus, sepi saat libur semester | 350 | 0,9 | 0,08, semua barang |
+- Kode: `datagen/profil_warung.py`
 
-Setiap profil juga menentukan kategori yang ditonjolkan (misalnya snack dan alat tulis
-di C, mie instan dan kopi di E). Porsi rak dasar memberi rokok dan es krim porsi lebih
-besar daripada tahap pemilihan kandidat, dan kategori pokok punya jumlah jenis minimal
-untuk warung sekecil apa pun (rokok dan bumbu 12, mie instan dan sabun 10, kopi,
-deterjen, dan es krim 8, obat 6, beras dan pokok, teh, dan perawatan gigi 5, minyak
-dan air minum 4). Kategori yang barangnya kurang diambil semua, lalu sisa kuotanya
-dibagi ke kategori lain.
+## Langkah 5: Isi rak tiap warung ✅
 
-Siklus gajian umumnya hanya berlaku untuk barang mahal. Di warung E berlaku untuk semua
-barang kecuali rokok, karena seluruh belanja penghuni kos bergantung pada kiriman
-bulanan. Masa libur: warung C pada libur sekolah (kategori jajanan anak turun separuh),
-warung E pada libur semester 15 Juni sampai 10 Agustus dan 20 Desember sampai
-10 Februari (seluruh kategori turun menjadi 60 persen, bertahap selama 7 hari di awal
-dan di akhir libur karena penghuni kos tidak pulang dan kembali serentak).
+Separuh kuota tiap kategori diisi barang dengan bobot tertinggi, separuh sisanya diundi
+sebanding bobot. Peringkat dalam kategori: popularitas, lalu barang lebih murah dan
+kemasan lebih kecil.
 
-- Hasil: `datagen/profil_warung.py` ✅
-- Efek Lebaran tidak dimodelkan dan dicatat sebagai keterbatasan
-
-## Langkah 5: Isi rak tiap warung
-
-Memilih barang yang dijual di setiap warung dari 1.130 barang lolos, sesuai kuota
-kategori profilnya. Separuh kuota tiap kategori diisi barang dengan bobot tertinggi agar
-barang inti tidak terlewat; separuh sisanya diundi sebanding bobot sehingga tiap warung
-punya barang ekor yang berbeda. Bobot berasal dari popularitas (5: 100, 4: 30, 3: 8,
-2: 3, 1: 1), preferensi warung kecil (A, C, E) terhadap barang murah (murah 1,5, mahal
-0,5), dan penyesuaian per profil: barang bayi di warung kos berbobot 0,2.
-
-- Hasil: `data/demo_5warung/assortment.csv`, serta `rak/rak_X.csv` dan `rak/rak_X.md`
-  per warung
+- Hasil: `data/demo_5warung/assortment.csv`, `rak/rak_X.md`
 - Kode: `datagen/assortment.py`
 
-## Langkah 6: Resep otomatis
+## Langkah 6: Resep otomatis ✅
 
-Menentukan seberapa sering dan seberapa banyak setiap barang laku di setiap warung,
-memakai empat variabel yang sama dengan generator 60 SKU (peluang laku, rentang
-kuantitas, peluang borongan, rentang borongan). Dasarnya:
+Laju harian = patokan kategori × faktor popularitas dan peringkat × faktor harga ×
+keramaian × penekanan yang dinormalkan. Pola laku per pita laju, sebaran "biasanya 1,
+sesekali lebih" untuk barang yang tidak laku setiap hari, borongan untuk tiga barang
+teratas di sepuluh kategori, dan stok minimal per barang.
 
-1. pola kategori, dikalibrasi dari 60 SKU yang sudah diaudit
-2. peringkat barang di kategorinya: peringkat atas laku setiap hari, peringkat bawah jarang
-3. keramaian dan kategori yang ditonjolkan di profil warung
+- Hasil: `data/demo_5warung/resep.csv`, `resep/resep_X.md`
+- Kode: `datagen/resep_otomatis.py`
 
-Langkah ini juga menentukan barang yang ikut siklus gajian, waktu tunggu kulakan, dan
-jadwal kulakan.
+## Langkah 7: Pembangkitan data ✅
 
-- Hasil: `data/demo_5warung/resep.csv`, sekitar 2.400 pasangan warung dan barang
-- Perlu persetujuan: pola per kategori sebelum ditulis
+Periode 1 Oktober 2025 sampai 30 September 2026, pemanasan 90 hari dibuang. Pengali
+kalender (hari, gajian, libur, tahun ajaran baru) dihitung per barang. Waktu jalan sekitar
+30 detik. Pipeline 60 SKU tetap menghasilkan data yang identik.
 
-## Langkah 7: Pembangkitan data
+- Hasil: `penjualan_harian.csv`, `stok_harian.csv`, `snapshot_stok.csv`,
+  `katalog_warung.csv`, `tinjauan/`, `ringkasan/`
+- Kode: `datagen/kalender_warung.py`, `run_generate_5warung.py`,
+  `datagen/ringkasan_5warung.py`
 
-Membangkitkan permintaan harian setahun untuk setiap warung, lalu menjalankan simulasi
-stok (stok habis, kulakan, pemanasan 90 hari) seperti generator 60 SKU. Apabila terlalu
-lambat untuk sekitar 2.400 barang, perhitungannya dipercepat tanpa mengubah hasil
-statistiknya.
+## Langkah 8: Pemeriksaan otomatis ✅
 
-- Hasil di `data/demo_5warung/`:
-  - `penjualan_harian.csv` (warung, kode, tanggal, hari, jumlah), satu-satunya berkas
-    yang dibaca model
-  - `stok_harian.csv`, `snapshot_stok.csv`, `katalog_warung.csv`
-- Dijalankan sendiri: `python run_generate_5warung.py`
+Dua belas tes atas hasil generate, seluruhnya lolos. Pemeriksaan menemukan dan
+memperbaiki dua masalah: barang lambat yang tidak pernah distok ulang (diperbaiki dengan
+stok minimal) dan jumlah per pembelian yang terlalu seragam (diperbaiki dengan sebaran
+geometrik).
 
-## Langkah 8: Pemeriksaan otomatis
+- Kode: `tests/test_5warung.py`
 
-Tes yang memastikan data masuk akal tanpa pemeriksaan manual per barang:
+## Langkah 9: Dokumentasi ✅
 
-- volume penjualan sesuai resep
-- komposisi pola laku (rutin, jarang, borongan) per warung wajar; warung D punya
-  barang jarang laku terbanyak
-- urutan omzet antar warung wajar
-- efek gajian terukur kembali sesuai rancangan; rokok dan barang murah datar
-- tidak ada barang yang dibuang ikut masuk
-
-Setelah tes lolos, data ditinjau dalam tampilan lebar per warung seperti putaran 60 SKU.
-
-- Hasil: `tests/test_5warung.py`
-- Dijalankan sendiri: `python -m pytest`
-
-## Langkah 9: Dokumentasi
-
-Memperbarui `docs/mekanisme_generator.md` dalam gaya presentasi: katalog induk,
-klasifikasi, lima profil, cara data dibuat, dan keterbatasan.
-
----
-
-## Keterbatasan yang akan dicatat
-
-- Hanya barang berbarcode dari IPOS; barang tanpa barcode yang laris di warung belum
-  termasuk.
-- Katalog IPOS sudah lama: sebagian merek baru tidak ada, beberapa merek lama mungkin
-  sudah tidak beredar.
-- Popularitas dan kelas harga adalah penilaian, bukan data penjualan atau harga nyata.
-- Siklus gajian dan libur sekolah adalah asumsi. Setelah data warung asli tersedia,
-  efek per tanggal diukur per kategori (bukan per barang), setelah pengaruh hari
-  dipisahkan, lalu angka asumsi diganti hasil ukur.
+- `docs/data_sintetis_5warung.md`: penjelasan lengkap untuk CTO dan tim, termasuk
+  keterbatasan dan rencana pengukuran setelah demo
 
 ## Setelah selesai
 
