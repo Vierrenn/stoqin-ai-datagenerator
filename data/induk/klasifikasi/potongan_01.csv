@@ -1,0 +1,501 @@
+kode,nama,kategori,satuan,ukuran,kelas_harga,popularitas,cocok_warung,keyakinan,alasan
+8992780203639,2TANG AIR MINERAL 1500ML,air minum,botol,1500ml,sedang,2,ya,tinggi,
+8992761139018,ADES NATURAL 600ML BTL,air minum,botol,600ml,murah,4,ya,tinggi,
+8992982101504,ADES XTRA 1500ML BTL,air minum,botol,1500ml,sedang,3,ya,sedang,
+8992761136277,ADES XTRA 1500ML BTL',air minum,botol,1500ml,sedang,3,ya,sedang,
+8996129800626,AIR MINERAL EXTRA OXYGEN 330ML,air minum,botol,330ml,murah,1,ya,rendah,nama atau merek tidak jelas
+8992775713013,AIR MINERAL MAYO 600 ML,air minum,botol,600ml,murah,1,ya,rendah,nama atau merek tidak jelas
+8997001520014,AIROX MINERAL WATER 350ML,air minum,botol,350ml,murah,1,ya,rendah,nama atau merek tidak jelas
+8992752104094,AQUA 330ML STRAWBERRY,air minum,botol,330ml,murah,2,tidak,sedang,varian sudah tidak beredar
+8886008101053,AQUA BTL 600mL,air minum,botol,600ml,murah,5,ya,tinggi,
+38886008101047,AQUA GLS,air minum,cup,,murah,4,ya,tinggi,
+8992752111122,AQUA MIZONE 500ML COOLIN BLEWAH,minuman ringan,botol,500ml,sedang,3,ya,tinggi,
+8992752111016,AQUA MIZONE 500ML MANGGA KWENI,minuman ringan,botol,500ml,sedang,3,ya,tinggi,
+8992832601017,CASABLANCA BM 50ML AQUA BR,sabun dan sampo,botol,50ml,sedang,1,tidak,tinggi,"kosmetik atau parfum, bukan barang warung"
+8992832603448,CASABLANCA ROLL ON 50ML AQUA BLUE,sabun dan sampo,botol,50ml,sedang,1,tidak,sedang,"kosmetik atau parfum, bukan barang warung"
+8996129800640,CLEO AIR MINERAL 1200ML,air minum,botol,1200ml,sedang,3,ya,tinggi,
+8996129801029,CLEO GALON MINI 6000ML,air minum,galon,6000ml,sedang,2,ya,sedang,
+8886031123336,CLUB MINERAL WATER 1500ML,air minum,botol,1500ml,sedang,3,ya,tinggi,
+8992856103689,ENTERNITY ABU AQUA 100,sabun dan sampo,botol,100ml,mahal,1,tidak,rendah,"kosmetik atau parfum, bukan barang warung"
+8994176601258,FOREVER AIR MINERAL 240ML,air minum,cup,240ml,murah,1,ya,rendah,nama atau merek tidak jelas
+4808888421223,GARD SH W CON AQUA MINERALS 100ML,sabun dan sampo,botol,100ml,sedang,1,tidak,sedang,produk impor (Filipina)
+8992830156663,HAWAII BOX CLEO 5666,rumah tangga,pcs,,sedang,1,tidak,rendah,"perabot plastik, bukan barang warung"
+8996001600375,LE MINERALE 330 ML,air minum,botol,330ml,murah,3,ya,tinggi,
+8991380222415,LOREAL HYDRAFRESH EYE 15ML AQUA,sabun dan sampo,tube,15ml,mahal,1,tidak,tinggi,"kosmetik atau parfum, bukan barang warung"
+8994468008888,"MINDY AIR MINERAL 1,5LT",air minum,botol,1.5l,sedang,1,ya,rendah,nama atau merek tidak jelas
+8997016220053,MORRIS PF 100ML AQUA,sabun dan sampo,botol,100ml,sedang,1,tidak,sedang,"kosmetik atau parfum, bukan barang warung"
+8993417142277,MTR SPRAY COL. 100ML AQUA BLACK,sabun dan sampo,botol,100ml,sedang,1,tidak,sedang,"kosmetik atau parfum, bukan barang warung"
+4005808828869,NIVEA DEODORANT AQUA COOL FOR MEN 50ML,sabun dan sampo,botol,50ml,mahal,1,tidak,tinggi,"kosmetik atau parfum, bukan barang warung"
+8999510785472,PRISTINE 1500ML MINERAL WATER,air minum,botol,1500ml,sedang,2,ya,tinggi,
+8997017170012,S2 MINERAL WATER 240ML,air minum,cup,240ml,murah,1,ya,rendah,nama atau merek tidak jelas
+8994278600166,SANQUA AIR MINERAL 240ML,air minum,cup,240ml,murah,2,ya,sedang,
+8997011870031,SUPER O2 MINERAL WATER 385ML,air minum,botol,385ml,murah,2,ya,sedang,
+4800602007966,VIVA MINERAL WATER 500ML (2ND CODE),air minum,botol,500ml,murah,1,tidak,sedang,produk impor (Filipina)
+8886386940015,WIKA MINERAL WATER 220ML,air minum,cup,220ml,murah,1,tidak,rendah,produk impor (Singapura/Malaysia)
+8886386940022,WIKA MINERAL WATER 600ML,air minum,botol,600ml,murah,1,tidak,rendah,produk impor (Singapura/Malaysia)
+8991389230008,BIG BOSS BUKU TULIS 42`S,alat tulis,pcs,42 lbr,murah,3,ya,tinggi,
+6924719906054,BOX PENSIL BLUE GRAGON B 007,alat tulis,pcs,,sedang,1,tidak,sedang,produk impor (Tiongkok)
+6936380605785,BOX PENSIL KLG B 578,alat tulis,pcs,,sedang,1,tidak,sedang,produk impor (Tiongkok)
+6936380605815,BOX PENSIL KLG B 581,alat tulis,pcs,,sedang,1,tidak,sedang,produk impor (Tiongkok)
+8998321458742,BUKU BOXY BOLA 1S,alat tulis,pcs,,murah,2,ya,sedang,
+898013,BUKU EKSPIDISI VOLTA,alat tulis,pcs,,sedang,1,tidak,sedang,keperluan kantor
+6891345678993,BUKU GAMBAR KECIL BIASA,alat tulis,pcs,,murah,3,ya,sedang,
+6931068500918,BUKU MEWARNAI DD 46,alat tulis,pcs,,murah,2,ya,rendah,nama atau merek tidak jelas
+8997010511201,BUKU PANJANG MINDORI 42,alat tulis,pcs,42 lbr,sedang,1,ya,rendah,nama atau merek tidak jelas
+8991389304464,BUKU SIDU 38 LBR,alat tulis,pcs,38 lbr,murah,4,ya,tinggi,
+8991389220306,BUKU SIDU 38L,alat tulis,pcs,38 lbr,murah,4,tidak,tinggi,sama dengan BUKU SIDU 38 LBR
+8997014790046,BUKU TULIS DREAM CARD 58 LBR,alat tulis,pcs,58 lbr,murah,2,ya,sedang,
+8997014790299,BUKU TULIS DREAM CARD 78 LBR,alat tulis,pcs,78 lbr,sedang,2,ya,sedang,
+876547895504,BUKU TULIS GARIS 3 GELATIK 38 LBR,alat tulis,pcs,38 lbr,murah,2,ya,sedang,
+8997022640500,Buku Tulis AL GOLD 38,alat tulis,pcs,38 lbr,murah,2,ya,sedang,
+8995757203557,COVER KIKY OKTAVO,alat tulis,pcs,,murah,2,ya,sedang,
+8991389300251,DODO BUKU TULIS 26/PACK,alat tulis,pak,,mahal,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+4005401144618,F-CASTELL PENSIL 12W 114461,alat tulis,kotak,isi 12,sedang,2,ya,sedang,
+6939783100093,GARISAN A SET LY 8146,alat tulis,pcs,,sedang,1,ya,rendah,nama atau merek tidak jelas
+8995757060853,KIKY BT 62Lb-5 s-Pak,alat tulis,pak,62 lbr x5,mahal,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8995757244000,KIKY BUKU KWITANSI MINI,alat tulis,pcs,,murah,2,ya,sedang,
+8995757101860,KIKY BUKU PANJANG 40LBR BOXY,alat tulis,pcs,40 lbr,sedang,1,ya,rendah,nama atau merek tidak jelas
+8995757802545,KIKY BUKU TULIS PACK 38,alat tulis,pak,38 lbr,mahal,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8995757015808,KIKY FAKTUR PAJAK 4PLY 20,alat tulis,pcs,,sedang,1,tidak,tinggi,keperluan kantor
+8995757018175,KIKY TAS KERTAS TG,alat tulis,pcs,,sedang,1,tidak,sedang,"tas kertas hadiah, bukan barang warung"
+8993988065234,"LAKBAN HITAM 2"" JOYKO",alat tulis,pcs,2 inch,sedang,2,ya,sedang,
+8993988045328,MAP BINDER B5 JOYKO,alat tulis,pcs,b5,sedang,1,tidak,sedang,keperluan kantor
+8997014310282,P.STAR BUKU TULIS 58/PACK,alat tulis,pak,58 lbr,mahal,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8993242595071,PAPERONE HVS 70 A3,alat tulis,pak,a3,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+3154141461088,PENGGARIS 20CM146108 MPED,alat tulis,pcs,20cm,sedang,2,ya,sedang,
+3154141461095,PENGGARIS 30CM146109 MPED,alat tulis,pcs,30cm,sedang,2,ya,sedang,
+8801237584088,PENGGARIS PLASTIK 30 CM,alat tulis,pcs,30cm,murah,3,ya,sedang,
+3154142428158,PENGGARIS SET 15CM MAPED,alat tulis,pcs,15cm,sedang,1,ya,rendah,nama atau merek tidak jelas
+6933583661655,PENGHAPUS 6166,alat tulis,pcs,,murah,2,ya,sedang,
+6933583662881,PENGHAPUS 6289,alat tulis,pcs,,murah,2,ya,sedang,
+6933583663178,PENGHAPUS 6317,alat tulis,pcs,,murah,2,ya,sedang,
+6946022300206,PENGHAPUS AA 153,alat tulis,pcs,,murah,2,ya,sedang,
+6956256262607,PENGHAPUS ER 6260,alat tulis,pcs,,murah,2,ya,sedang,
+8993988090182,PENGHAPUS JOYKO EB 30 CO,alat tulis,pcs,,murah,3,ya,tinggi,
+8993988286110,PENSIL 2B JOYKO P-93,alat tulis,pcs,,murah,3,ya,tinggi,
+8998838360798,PULPEN KENKO HI-TECH BIRU,alat tulis,pcs,,murah,3,ya,tinggi,
+6922139423052,PULPEN LANTU EXECUTIVE 2305,alat tulis,pcs,,murah,2,ya,sedang,
+6922139422062,PULPEN LANTU ROLLER TIP,alat tulis,pcs,,murah,2,ya,sedang,
+6922139421089,PULPEN ROLLER TIP ARMY,alat tulis,pcs,,murah,2,ya,sedang,
+4970129022510,PULPEN SNOWMAN OHP F,alat tulis,pcs,,sedang,1,tidak,sedang,keperluan kantor
+4970129023517,PULPEN SNOWMAN OHP M,alat tulis,pcs,,sedang,1,tidak,sedang,keperluan kantor
+6926650286844,PULPEN WOKE PENDEK 1111,alat tulis,pcs,,murah,2,ya,rendah,nama atau merek tidak jelas
+8991389220061,SIDU BT 78Lb ECER,alat tulis,pcs,78 lbr,sedang,3,ya,tinggi,
+8991389300091,SIDU BUKU TULIS 32/PACK,alat tulis,pak,32 lbr,mahal,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8991389223215,SIDU KERTAS LIPAT ORIGAMI B,alat tulis,pak,,murah,2,ya,sedang,
+8991389223284,SIDU KERTAS LIPAT ORIGAMI TG,alat tulis,pak,,murah,2,ya,sedang,
+8991389222324,SIDU SB PF 30 A4,alat tulis,pcs,a4,sedang,1,tidak,rendah,keperluan kantor
+4970129749516,SNOWMAN SPIDOL 6520 HITAM,alat tulis,pcs,,sedang,2,ya,sedang,
+4970129727521,SNOWMAN SPIDOL BG-12 MERAH,alat tulis,pcs,,sedang,2,ya,sedang,
+4970129726517,SNOWMAN SPIDOL G-12 BLACK,alat tulis,pcs,,sedang,3,ya,tinggi,
+4970129726524,SNOWMAN SPIDOL G-12 RED,alat tulis,pcs,,sedang,2,ya,tinggi,
+4974052841682,SPIDOL ARTLINE W/B BIRU,alat tulis,pcs,,sedang,1,tidak,sedang,keperluan kantor
+6931190723124,STABILO G-0521,alat tulis,pcs,,murah,1,ya,rendah,nama atau merek tidak jelas
+6932913806018,STABILO INFICO ST 8001,alat tulis,pcs,,murah,1,ya,rendah,nama atau merek tidak jelas
+8993988130055,STABILO JOYKO HL 3,alat tulis,pcs,,murah,2,ya,sedang,
+8993988350330,STAPLES MINI JOYKO NO.10,alat tulis,pcs,no.10,sedang,1,ya,rendah,nama atau merek tidak jelas
+876547895559,VISION BUKU TULIS 32/PACK,alat tulis,pak,32 lbr,mahal,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8992796157308,VIVA Q PENSIL ALIS 1.3G HITAM,sabun dan sampo,pcs,1.3g,murah,1,tidak,tinggi,"kosmetik atau parfum, bukan barang warung"
+8991389220641,buku tulis SIDU 58,alat tulis,pcs,58 lbr,murah,4,ya,tinggi,
+8992855888235,AGAR AGAR POWDER RED,beras dan pokok,bungkus,,murah,2,ya,sedang,
+8992933433111,AGAR2 AGARASA 5G MELON,beras dan pokok,bungkus,5g,murah,1,ya,sedang,
+8992705032122,AGAR2 SATELIT SO WELL CHOCO,beras dan pokok,bungkus,,murah,1,ya,sedang,
+8992705042176,AGAR2 SATELIT SRG BURUNG HIJAU,beras dan pokok,bungkus,,murah,2,ya,sedang,
+8991689889814,AGAR2 SWALLOW CRISTAL COKLAT,beras dan pokok,bungkus,,murah,2,ya,tinggi,
+8991689468002,AGAR2 SWALLOW GRASS 7G WHT,beras dan pokok,bungkus,7g,murah,2,ya,tinggi,
+8991689668013,AGAR2 SWALLOW LILY 7G RED,beras dan pokok,bungkus,7g,murah,2,ya,tinggi,
+8991689368005,AGAR2 SWALLOW SUN 7G WHITE,beras dan pokok,bungkus,7g,murah,2,ya,tinggi,
+8997010920010,BATU GILING TEPUNG BERAS 500G,beras dan pokok,bungkus,500g,sedang,2,ya,sedang,
+8997010920034,BATU GILING TEPUNG KETAN 500G,beras dan pokok,bungkus,500g,sedang,2,ya,sedang,
+8993169785289,BERAS PW JAGO KUNING 5KG,beras dan pokok,bungkus,5kg,mahal,2,ya,sedang,
+8890003307211,BERAS RISO SENTRA RAMOS 5KG,beras dan pokok,bungkus,5kg,mahal,2,ya,sedang,
+8997011700123,BI JAG BIHUN JAGUNG 320G,beras dan pokok,bungkus,320g,sedang,2,ya,sedang,
+8993012550187,BIHUN DELLIS 225 GR,beras dan pokok,bungkus,225g,murah,1,ya,rendah,nama atau merek tidak jelas
+8997025360047,BIHUN JAGUNG 89 320G,beras dan pokok,bungkus,320g,sedang,1,ya,rendah,nama atau merek tidak jelas
+8997004060043,BIHUN JAGUNG PANEN JAGUNG 300G,beras dan pokok,bungkus,300g,sedang,2,ya,sedang,
+8995003400075,BIHUN JAGUNG WOLU 8 360G,beras dan pokok,bungkus,360g,sedang,1,ya,rendah,nama atau merek tidak jelas
+8993296210005,BOGASARI SEGITIGA BIRU 1KG,beras dan pokok,bungkus,1kg,sedang,4,ya,tinggi,
+8993037020108,EDNA TEPUNG MAIZENA 200G,beras dan pokok,bungkus,200g,sedang,1,ya,rendah,nama atau merek tidak jelas
+8887255100233,G/B BIHUN 250G TOMATO,beras dan pokok,bungkus,250g,sedang,1,tidak,sedang,produk impor (Singapura/Malaysia)
+8992775313046,"GERY CRACKER BERAS 12X5,6G",snack,pak,12x5.6g,sedang,2,ya,sedang,
+6926296559036,GU LONG MUTIARA BIHUN R. TALAS 250G,beras dan pokok,bungkus,250g,sedang,1,ya,rendah,nama atau merek tidak jelas
+8997010400031,GULA ASAM,permen dan coklat,bungkus,,murah,1,ya,rendah,nama atau merek tidak jelas
+8994460001986,GULA BATU IE IE TOPLES TG 500 GR,beras dan pokok,pcs,500g,sedang,1,tidak,sedang,"kemasan toples, dijual per bagian"
+8994460000095,GULA KELAPA ROLL 300 GR,beras dan pokok,bungkus,300g,sedang,2,ya,sedang,
+8993428103021,GULA LAKU P-1000,beras dan pokok,bungkus,,murah,1,ya,rendah,nama atau merek tidak jelas
+8997023030249,GULA TB MAS,beras dan pokok,bungkus,,sedang,1,ya,rendah,nama atau merek tidak jelas
+8995177108883,GULAKU 05KG TEBU,beras dan pokok,bungkus,0.5kg,sedang,3,ya,tinggi,
+8995177109996,GULAKU MURNI 500G,beras dan pokok,bungkus,500g,sedang,3,ya,tinggi,
+8995177106889,GULAKU POUCH RS.STRAW.750 GR,beras dan pokok,bungkus,750g,sedang,1,tidak,sedang,"gula rasa khusus, produk supermarket"
+8995177101112,GULAKU(PUTIH) PCK 1KG,beras dan pokok,bungkus,1kg,mahal,5,ya,tinggi,
+8992993523104,HAAN MAIZENA 150G,beras dan pokok,bungkus,150g,sedang,1,ya,sedang,
+6920054700111,HONG SWALLOW BIHUN,beras dan pokok,bungkus,,sedang,1,tidak,sedang,produk impor (Tiongkok)
+3178990433041,MAIZENA BAKE KING 100G,beras dan pokok,bungkus,100g,sedang,1,tidak,rendah,produk impor (bahan kue)
+3178990433065,MAIZENA BAKE KING 500G,beras dan pokok,bungkus,500g,sedang,1,tidak,rendah,produk impor (bahan kue)
+8714700522015,MAIZENAKU 1KG TEPUNG MAIZENA,beras dan pokok,bungkus,1kg,mahal,1,tidak,sedang,kemasan besar atau grosir
+8995102702414,MAMASUKA TEPUNG BAKSO,beras dan pokok,bungkus,,murah,1,ya,sedang,
+8998008185015,MAMASUKA TEPUNG ROTI 200G,beras dan pokok,bungkus,200g,sedang,1,ya,sedang,
+8995102702070,MAMASUKA TEPUNG TEMPE GRG 80G,bumbu,bungkus,80g,murah,2,ya,sedang,
+9555020100533,NAGO 450G TEPUNG KEK KEJU,beras dan pokok,bungkus,450g,sedang,1,tidak,sedang,produk impor (Malaysia)
+9555020100106,NAGO 450G TEPUNG NAIK SENDIRI,beras dan pokok,bungkus,450g,sedang,1,tidak,sedang,produk impor (Malaysia)
+8992696408746,NESTLE CERELAC BERAS MERAH 20G,susu,sachet,20g,murah,2,ya,sedang,
+4800016556838,PAYLESS FIESTA BIHON CHICK. GUISADO 54G.,mie instan,bungkus,54g,murah,1,tidak,tinggi,produk impor (Filipina)
+8993093142509,ROSE BRAND 250G BIHUN,beras dan pokok,bungkus,250g,sedang,3,ya,tinggi,
+8993093664872,ROSE BRAND BIHUN 5'S AYAM BAWANG,mie instan,pak,isi 5,sedang,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8993093664865,ROSE BRAND BIHUN 5'S GORENG SP,mie instan,pak,isi 5,sedang,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8993093664889,ROSE BRAND BIHUN 5'S SOTO AYAM,mie instan,pak,isi 5,sedang,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8993093664919,ROSE BRAND BIHUN 500G,beras dan pokok,bungkus,500g,sedang,2,ya,tinggi,
+8993093665121,ROSE BRAND BIHUN JAGUNG 360G,beras dan pokok,bungkus,360g,sedang,2,ya,tinggi,
+8993093665114,ROSE BRAND BIHUN JAGUNG 80G,beras dan pokok,bungkus,80g,murah,3,ya,tinggi,
+8992705031040,S SRITI AGAR2 COKLAT 6 5GR,beras dan pokok,bungkus,,murah,1,ya,rendah,nama atau merek tidak jelas
+8993296201119,SEGITIGA BIRU 1KG TERIGU,beras dan pokok,bungkus,1kg,sedang,4,tidak,tinggi,sama dengan BOGASARI SEGITIGA BIRU 1KG
+8993296205001,SEGITIGA BIRU 500G EKONOMI,beras dan pokok,bungkus,500g,sedang,3,ya,tinggi,
+1601200313007,SOFLYNA USUS TANPA TEPUNG 35 G,snack,bungkus,35g,murah,1,ya,rendah,nama atau merek tidak jelas
+89686350516,SUN 120G BERAS MERAH EKONOMIS,susu,bungkus,120g,sedang,3,ya,tinggi,
+89686547016,SUN MP-ASI BERAS MERAH SAC 20G,susu,sachet,20g,murah,2,ya,tinggi,
+8994357010022,SUPER BIHUN KUAH,mie instan,bungkus,,murah,2,ya,sedang,
+8995102702537,TEPUNG KRISPY,bumbu,bungkus,,murah,1,ya,rendah,nama atau merek tidak jelas
+8997001240035,TEPUNG TERIGU PITA MERAH 1KG,beras dan pokok,bungkus,1kg,sedang,1,ya,rendah,nama atau merek tidak jelas
+8992984910135,2 BELIBIS SAMBAL CABE 340ML,bumbu,botol,340ml,sedang,2,ya,sedang,
+711844160392,ABC BOX 1LT JUICE GOLD MIX,minuman ringan,kotak,1l,mahal,1,tidak,sedang,kemasan besar atau grosir
+711844162419,ABC BOX 250ML KACANG IJO,minuman ringan,kotak,250ml,murah,3,ya,tinggi,
+711844162426,ABC BOX 250ML SARI ASAM,minuman ringan,kotak,250ml,murah,2,ya,tinggi,
+711844110328,ABC KECAP 18'SX13ML MANIS,bumbu,pak,18x13ml,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8945709234757,ABC KECAP 190ML PEDAS,bumbu,botol,190ml,sedang,2,ya,sedang,
+711844110731,ABC KECAP 600ML PEDAS,bumbu,botol,600ml,mahal,1,ya,sedang,
+711844110052,ABC KECAP 620ML MANIS,bumbu,botol,620ml,mahal,2,ya,tinggi,
+711844110359,ABC KECAP 70ML BLACK GOLD REF,bumbu,bungkus,70ml,murah,2,ya,sedang,
+711844110182,ABC KECAP 70ML MANIS REF,bumbu,bungkus,70ml,murah,3,ya,tinggi,
+711844110069,ABC KECAP MANIS SEDANG 620ML,bumbu,botol,620ml,mahal,2,ya,tinggi,
+711844330214,ABC MACKAREL TOMAT KLG 425G,makanan kaleng,kaleng,425g,mahal,3,ya,tinggi,
+8992388121038,ABC MI CUP AYAM BAWANG,mie instan,cup,,sedang,2,ya,sedang,
+711844167056,ABC MILK SHAKE 185ML CHOCOLATE,susu,kotak,185ml,sedang,1,ya,rendah,nama atau merek tidak jelas
+711844160323,ABC MR JUSSIE 125ML MANGGA,minuman ringan,kotak,125ml,murah,2,ya,sedang,
+711844160286,ABC MR JUSSIE 180ML STRAWBERRY,minuman ringan,kotak,180ml,murah,2,ya,sedang,
+711844160316,ABC MR JUSSIE 90ML JAMBU,minuman ringan,kotak,90ml,murah,2,ya,sedang,
+7118441647340,ABC MR JUSSIE 90ML MANGGA,minuman ringan,kotak,90ml,murah,2,ya,sedang,
+7118441647418,ABC MR JUSSIE 90ML ORANGE,minuman ringan,kotak,90ml,murah,2,ya,sedang,
+8992388121267,ABC PEDAS GULAI AYAM CUP 60g,mie instan,cup,60g,sedang,2,ya,sedang,
+711844120440,ABC SAMBAL 275ML EXTRA PEDAS,bumbu,botol,275ml,sedang,3,ya,tinggi,
+711844120167,ABC SAMBAL AYAM GOREN BTL 135mL,bumbu,botol,135ml,sedang,2,ya,tinggi,
+711844120556,ABC SAMBAL E PEDAS 80 G POUCH,bumbu,bungkus,80g,murah,2,ya,sedang,
+711844130050,ABC SAUS TOMAT 1KG,bumbu,botol,1kg,mahal,1,tidak,tinggi,kemasan besar atau grosir
+711844120549,ABC SBL ASLI 80ML POUCH,bumbu,bungkus,80ml,murah,3,ya,tinggi,
+711844150157,ABC SYRP DUO FRUIT MIX 2'SX300ML,minuman ringan,pak,2x300ml,mahal,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+711844154643,ABC SYRP GRADE 585ML ANGGUR BLACK,minuman ringan,botol,585ml,mahal,2,ya,sedang,
+711844154537,ABC SYRP SPC 550ML MOCCA,minuman ringan,botol,550ml,mahal,1,ya,sedang,
+711844150188,ABC SYRP SQUASH 12MLX20'S,minuman ringan,pak,20x12ml,sedang,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+711844150164,ABC SYRP SQUASH 500ML ORANGE,minuman ringan,botol,500ml,mahal,2,ya,sedang,
+8992770011152,AJINOMOTO 29G,bumbu,bungkus,29g,murah,4,ya,tinggi,
+8992770011060,AJINOMOTO 50G,bumbu,bungkus,50g,murah,4,ya,tinggi,
+8992770096227,AJINOMOTO SAORI 135ML TERIYAKI,bumbu,botol,135ml,sedang,2,ya,tinggi,
+8992770096142,AJINOMOTO SAORI 1LT S. TIRAM,bumbu,botol,1l,mahal,1,tidak,tinggi,kemasan besar atau grosir
+8992770096234,AJINOMOTO SAORI 275ML TERIYAKI,bumbu,botol,275ml,sedang,1,ya,sedang,
+8990121014029,BANGO K/MNS 300ML BTL,bumbu,botol,300ml,sedang,3,ya,tinggi,
+8999999012625,BANGO KECAP MANIS )PCH 220mL,bumbu,bungkus,220ml,sedang,4,ya,tinggi,
+8999999026264,BANGO KECAP MANIS PEDASBTL 135ML,bumbu,botol,135ml,sedang,2,ya,tinggi,
+7493743858679,BIPI LADA PUTIH 50G,bumbu,bungkus,50g,sedang,2,ya,sedang,
+089686386011,BUMBU RACIK NASI GORENG,bumbu,sachet,,murah,4,ya,tinggi,
+089686386219,BUMBU RACIK TUMIS,bumbu,sachet,,murah,3,ya,tinggi,
+8990121011028,Bib Bango Mns 620ml/12,bumbu,botol,620ml,mahal,2,ya,sedang,
+8999088815090,CAP ELANG BUMBU BUAH PEDAS 100G,bumbu,bungkus,100g,murah,1,ya,rendah,nama atau merek tidak jelas
+8994122398126,COCOMAS 200ML SANTAN BOX,bumbu,kotak,200ml,sedang,2,ya,sedang,
+8992814881031,ENAK ECO BMB SATE 185G,bumbu,botol,185g,sedang,1,ya,rendah,nama atau merek tidak jelas
+8991814884278,ENAK ECO BMB SATE KAMBING 200GR,bumbu,botol,200g,sedang,1,ya,rendah,nama atau merek tidak jelas
+8991818800710,FINNA SAMBAL PEDAS 10'S,bumbu,pak,isi 10,sedang,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8888327834421,GAGA SAMBAL 140ML PEDAS MANIS,bumbu,botol,140ml,sedang,1,ya,sedang,
+8997013250008,GARAM DAPUR MAMA 250G,bumbu,bungkus,250g,murah,3,ya,sedang,
+8993111215000,GARAM JEMPOL 500G,bumbu,bungkus,500g,murah,3,ya,sedang,
+8993141122026,GARAM LODAN 1KG,bumbu,bungkus,1kg,sedang,2,ya,sedang,
+8994389110271,GARAM OCTOPUSS 200G',bumbu,bungkus,200g,murah,2,ya,sedang,
+8994364110029,GARAM PROGIZI B,bumbu,bungkus,,murah,2,ya,rendah,nama atau merek tidak jelas
+8991045124559,"GARAM SEGI TIGA ""G""",bumbu,bungkus,,murah,3,ya,sedang,
+8992388471102,GURIMI AYAM KECAP PEDAS,mie instan,bungkus,,murah,2,ya,sedang,
+8992830130168,HAWAII T BUMBU 3016,rumah tangga,pcs,,sedang,1,tidak,sedang,"perabot plastik, bukan barang warung"
+89686386028,IDF BMB 22G RACIK NASI GORENG SPC,bumbu,sachet,22g,murah,3,ya,tinggi,
+89686385618,IDF BMB 25G KENTANG GRG KEJU,bumbu,sachet,25g,murah,1,ya,sedang,
+89686385663,IDF BMB 25G KENTANG GRG P.MANIS,bumbu,sachet,25g,murah,1,ya,sedang,
+89686440638,IDF BUMBU 50G NASI KUNING,bumbu,sachet,50g,murah,2,ya,sedang,
+89686380361,IDF KALDU SAPI BLOK 100G,bumbu,kotak,100g,sedang,1,ya,sedang,
+89686400854,IDF SAMBAL 275ML EKSTRA PEDAS,bumbu,botol,275ml,sedang,3,ya,tinggi,
+89686400359,IDF SAMBAL 275ML PEDAS,bumbu,botol,275ml,sedang,3,ya,tinggi,
+89686401066,IDF SAMBAL 340ML BANGKOK ASAM MANIS,bumbu,botol,340ml,sedang,2,ya,tinggi,
+89686400861,IDF SAMBAL 340ML EXTRA PEDAS,bumbu,botol,340ml,sedang,2,ya,tinggi,
+89686401837,IDF SAMBAL BALADO HIJAU 200G,bumbu,botol,200g,sedang,1,ya,sedang,
+89686386318,INDOFOOD BUMBU RACIK SYR SOP PCK 20g,bumbu,sachet,20g,murah,3,ya,tinggi,
+89686401011,INDOFOOD SAMBAL ALA BANGKOK ASAM MANIS BTL 140mL,bumbu,botol,140ml,sedang,2,ya,tinggi,
+89686400427,INDOFOOD SAMBAL PEDAS BTL 140mL,bumbu,botol,140ml,sedang,3,ya,tinggi,
+8992717822216,KARA 220 CUP CCPD,minuman ringan,cup,220g,murah,2,ya,sedang,
+8992717822209,KARA 220 CUP LECI,minuman ringan,cup,220g,murah,2,ya,sedang,
+8992717783609,KARA 360G BKS LYCHEE,minuman ringan,bungkus,360g,sedang,1,ya,sedang,
+8992717369216,KARA 360G BKS PLAIN,minuman ringan,bungkus,360g,sedang,1,ya,sedang,
+8992717781001,KARA NATA DE COCO TEBAL 1KG,minuman ringan,bungkus,1kg,mahal,1,tidak,sedang,kemasan besar atau grosir
+8992717880209,KARA SANTAN 1LT BOX MURNI,bumbu,kotak,1l,mahal,1,tidak,tinggi,kemasan besar atau grosir
+8886303200031,KARA SANTAN 500ML BOX,bumbu,kotak,500ml,mahal,1,tidak,sedang,produk impor (Singapura/Malaysia)
+8999999100353,KECAP BANGGO MANIS 100ML,bumbu,botol,100ml,murah,2,ya,sedang,
+8999999101183,KECAP BANGO MANIS REFIL 110 ML,bumbu,bungkus,110ml,sedang,3,ya,tinggi,
+8999999101190,KECAP BANGO MANIS REFIL 225 ML,bumbu,bungkus,225ml,sedang,4,ya,tinggi,
+711844110250,KECAP MANIS SOTO 520ML,bumbu,botol,520ml,mahal,1,ya,sedang,
+4808680200903,KNORR CHICK CUBES 22G,bumbu,kotak,22g,murah,1,tidak,tinggi,produk impor (Filipina)
+4808680210957,KNORR CRAB AND CORN SOUP 60G,bumbu,bungkus,60g,sedang,1,tidak,tinggi,produk impor (Filipina)
+4808680221151,KNORR CREAM OF ASPARAGUS 70G,bumbu,bungkus,70g,sedang,1,tidak,tinggi,produk impor (Filipina)
+90001673,KNORR SHRIMP POWDER 1KG,bumbu,bungkus,1kg,mahal,1,tidak,tinggi,kemasan besar atau grosir
+4808680221755,KNORR TAMARIND SOUP BASE 40G,bumbu,bungkus,40g,sedang,1,tidak,tinggi,produk impor (Filipina)
+8995899250310,KOBE BON CABE CABAI KERING BERBUMBU ORIGINAL BTL,bumbu,botol,,sedang,3,ya,tinggi,
+8995899250341,KOBE BON CABE SAMBAL TABUR LEVEL 15 BTL 45g,bumbu,botol,45g,sedang,3,ya,tinggi,
+8995899250228,"KOBE BONCABE IKAN TERI 3X7,8G",bumbu,sachet,3x7.8g,murah,1,tidak,rendah,"kemasan isi banyak, dijual per bagian"
+8995899250549,KOBE BONCABE LEVEL 15 230G,bumbu,botol,230g,mahal,1,tidak,sedang,"kemasan besar, untuk rumah makan"
+8995899190135,KOBE CRISPY BREADCRUMBS 40G,bumbu,bungkus,40g,murah,1,ya,sedang,
+8994899130110,KOBE KENTUCKY ORIG 150GR KTK,bumbu,kotak,150g,sedang,2,ya,sedang,
+8995899452219,KOBE SAMBAL KENTUCKY 20'S X 8G,bumbu,pak,20x8g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+653314502526,KUSUKA 200G AYAM BMB BALI,snack,bungkus,200g,sedang,1,ya,sedang,
+8993012550132,LADA BUBUK DELIS 100 GR,bumbu,bungkus,100g,sedang,1,ya,rendah,nama atau merek tidak jelas
+8998008154110,"LEZZAA KALDU 8,5G X 5'S SAPI",bumbu,pak,5x8.5g,sedang,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+9556001609106,MAGGI BUBUR 63G IKAN,susu,bungkus,63g,sedang,1,tidak,sedang,produk impor (Malaysia)
+4800361056052,MAGGI CHICKEN BROTH CUBES 6 S,bumbu,kotak,isi 6,murah,1,tidak,tinggi,produk impor (Filipina)
+9556001601506,MAGGI CHILLI 340G,bumbu,botol,340g,sedang,1,tidak,sedang,produk impor (Malaysia)
+4800361298056,MAGGI CUP SARAP CHIX ARROZ CALDO 38G,mie instan,cup,38g,murah,1,tidak,tinggi,produk impor (Filipina)
+4800361298117,MAGGI GUINATAAN 75G,bumbu,bungkus,75g,murah,1,tidak,tinggi,produk impor (Filipina)
+89686383010,MAGGI KALDU BLOK 100G JAR AYAM,bumbu,pcs,100g,mahal,1,tidak,sedang,"kemasan toples, jarang di warung"
+9556001001474,MAGGI SAUS TIRAM 340G,bumbu,botol,340g,sedang,1,tidak,sedang,produk impor (Malaysia)
+4800361050104,MAGGI SAVOR CALAMANSI 130ML,bumbu,botol,130ml,sedang,1,tidak,tinggi,produk impor (Filipina)
+4800361050081,MAGGI SAVOR CLASSIC 130ML,bumbu,botol,130ml,sedang,1,tidak,tinggi,produk impor (Filipina)
+4800361050142,MAGGI SAVOR LIQ SEASON HOT CHILI 130ML,bumbu,botol,130ml,sedang,1,tidak,tinggi,produk impor (Filipina)
+8995102703046,MAMASUKA 25G BUMBU OPOR,bumbu,sachet,25g,murah,1,ya,sedang,
+8995102702902,MAMASUKA 55G SUP KRIM AYAM,bumbu,bungkus,55g,sedang,1,ya,sedang,
+8998008154530,MAMASUKA BUMBU 4.5G X 6'S AYAM,bumbu,pak,6x4.5g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8998008154554,MAMASUKA KALDU AYAM 250G,bumbu,bungkus,250g,sedang,1,ya,sedang,
+8995102703442,MAMASUKA TERASI UDANG 4G,bumbu,sachet,4g,murah,2,ya,sedang,
+8995102703428,MAMASUKA TERASI UDANG GELAS,bumbu,pcs,,sedang,1,ya,rendah,nama atau merek tidak jelas
+8991976732335,MASA KECAP MANIS 600ML REF,bumbu,bungkus,600ml,mahal,1,ya,sedang,
+8992770033192,MASAKO AYAM PCK 6x11g,bumbu,pak,6x11g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8992770033154,MASAKO BB DAGING AYAM 27 GR,bumbu,sachet,27g,murah,2,ya,sedang,
+8992770035127,MASAKO PENYEDAP RASA SAPI 6sct Rp300 AN 9 G MSC,bumbu,pak,6x9g,murah,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8992770034175,MASAKO RASA AYAM 100G,bumbu,bungkus,100g,sedang,3,ya,tinggi,
+8992770033130,MASAKO RASA AYAM 20G,bumbu,bungkus,20g,murah,4,ya,tinggi,
+8992770033147,MASAKO RASA SAPI 20G,bumbu,bungkus,20g,murah,4,ya,tinggi,
+8992770034168,MASAKO RASA SAPI 250G,bumbu,bungkus,250g,sedang,2,ya,tinggi,
+8992770032102,MASAKO RASA SAPI 250G GLS,bumbu,pcs,250g,sedang,1,tidak,sedang,"kemasan toples, jarang di warung"
+8992770034090,MASAKO RASA SAPI 50G,bumbu,bungkus,50g,murah,3,ya,tinggi,
+8992770033185,MASAKO SAPI 500 13 GR,bumbu,sachet,13g,murah,3,ya,sedang,
+8992770033208,MASAKO SAPI PCK 6x11g,bumbu,pak,6x11g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8992845121502,MAYA KECAP 150ML MANIS SEDANG,bumbu,botol,150ml,murah,1,ya,rendah,nama atau merek tidak jelas
+8993313107004,MEGAMIE KALDU,mie instan,bungkus,,murah,1,ya,rendah,nama atau merek tidak jelas
+95142042336,MERICA CAP JEMPOL 100G,bumbu,bungkus,100g,sedang,2,ya,sedang,
+93132041235,MERICA CAP JEMPOL 50G,bumbu,bungkus,50g,sedang,2,ya,sedang,
+8813964587100,MERICA PERMATA 250G,bumbu,bungkus,250g,mahal,1,tidak,sedang,"kemasan besar, untuk rumah makan"
+8991976100066,NASIONAL KECAP 340ML MANIS,bumbu,botol,340ml,sedang,1,ya,rendah,nama atau merek tidak jelas
+8991976110058,NASIONAL KECAP 625ML MANIS SDG,bumbu,botol,625ml,mahal,1,ya,rendah,nama atau merek tidak jelas
+8887225300205,PRENDJAK 140ML SAMBAL ASLI,bumbu,botol,140ml,sedang,1,ya,sedang,
+89686533132,PROMINA 100G BUBUR MI KALDU DAGING,susu,kotak,100g,sedang,2,ya,sedang,
+8999999192006,ROYCO B PELEZAT R TERASI 10G,bumbu,sachet,10g,murah,2,ya,sedang,
+8999999034368,ROYCO BMB 240G AYAM,bumbu,bungkus,240g,sedang,2,ya,tinggi,
+8999999193003,ROYCO BMB 4'SX10G AYAM,bumbu,pak,4x10g,murah,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8999999192990,ROYCO BMB 4'SX10G SAPI,bumbu,pak,4x10g,murah,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8999999035976,ROYCO BMB KUAH BAKSO100G,bumbu,bungkus,100g,sedang,1,ya,sedang,
+8999999192020,ROYCO BUMBU RASA TERASI 100 G,bumbu,bungkus,100g,sedang,1,ya,sedang,
+8999999194048,ROYCO RASA AYAM 8GR,bumbu,sachet,8g,murah,5,ya,tinggi,
+8999999192198,ROYCO SERBAGUNA R.SAPI 100GR,bumbu,bungkus,100g,sedang,3,ya,tinggi,
+8999999191429,ROYCO SUP KRIM ASPARAGUS 56GR,bumbu,bungkus,56g,sedang,1,ya,sedang,
+8999999191443,ROYCO SUP KRIM JAGUNG 50GR,bumbu,bungkus,50g,sedang,1,ya,sedang,
+8999999191412,ROYCO SUP KRIM JAMUR 55GR,bumbu,bungkus,55g,sedang,1,ya,sedang,
+8999999197827,ROYCO TP BB SERBAGUNA 80GR,bumbu,bungkus,80g,murah,2,ya,sedang,
+8999999197810,ROYCO TP BB SERBAGUNA PDS 80GR,bumbu,bungkus,80g,murah,2,ya,sedang,
+8992770074027,SAJIKU BUMBU 20G IKAN GORENG,bumbu,sachet,20g,murah,3,ya,tinggi,
+8992770084019,SAJIKU BUMBU 20G OPOR,bumbu,sachet,20g,murah,2,ya,tinggi,
+8992770084026,SAJIKU BUMBU 20G RENDANG,bumbu,sachet,20g,murah,2,ya,tinggi,
+8992770054012,SAJIKU BUMBU 24G NASI GR AYAM,bumbu,sachet,24g,murah,3,ya,tinggi,
+8414630149011,SAMBAL CABE RAWIT 325 ML,bumbu,botol,325ml,sedang,1,ya,rendah,nama atau merek tidak jelas
+8850781706002,SAMBAL OELEK 220ML,bumbu,botol,220ml,sedang,1,tidak,sedang,produk impor (Thailand)
+8993128622518,SAMBAL SEDAP 550G,bumbu,botol,550g,mahal,1,tidak,sedang,"kemasan besar, untuk rumah makan"
+8997029370028,SAMHOK TERASI UDANG 20'SX6G',bumbu,pak,20x6g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8992736925165,SASA 250G KENTUCKY,bumbu,bungkus,250g,sedang,2,ya,tinggi,
+8992736925189,SASA 250G KENTUCKY HOT,bumbu,bungkus,250g,sedang,2,ya,tinggi,
+8992736980157,SASA 80G PEDAS,bumbu,bungkus,80g,murah,2,ya,sedang,
+8992736808123,SASA BUMBU KLDU SAPI 8G,bumbu,sachet,8g,murah,3,ya,tinggi,
+8992736701110,SASA BUMBU SERBA GUNA AYAM 1KG,bumbu,bungkus,1kg,mahal,1,tidak,tinggi,kemasan besar atau grosir
+8992736801124,SASA BUMBU SERBA GUNA SAPI 1KG,bumbu,bungkus,1kg,mahal,1,tidak,tinggi,kemasan besar atau grosir
+8992736825120,SASA BUMBU SERBA GUNA SAPI 250G,bumbu,bungkus,250g,sedang,2,ya,sedang,
+8992736324289,SASA LARASA 20G NASI GORENG KARE,bumbu,sachet,20g,murah,1,ya,sedang,
+8992736240459,SASA LARASA 33G AYAM KALASAN,bumbu,sachet,33g,murah,1,ya,sedang,
+8991188943338,SASA RP100,bumbu,sachet,,murah,3,ya,sedang,
+8992736111407,SASA SBL 135ML EXTR-HOT,bumbu,botol,135ml,sedang,1,ya,sedang,
+8992736201276,SASA SBL TOMAT 1KG,bumbu,botol,1kg,mahal,1,tidak,tinggi,kemasan besar atau grosir
+8992736211275,SASA SBL TOMAT 24'S X 10G,bumbu,pak,24x10g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8992736901138,SASA TPG BMB ORI 900G,bumbu,bungkus,900g,mahal,1,tidak,tinggi,kemasan besar atau grosir
+8998866608015,SEDAP KECAP MANIS 275ML,bumbu,botol,275ml,sedang,3,ya,tinggi,
+8997005120012,STAR WAY MERICA BUBUK 50G,bumbu,bungkus,50g,murah,1,ya,rendah,nama atau merek tidak jelas
+8992717781025,SUN KARA 65ML,bumbu,kotak,65ml,murah,4,ya,tinggi,
+8997004380592,XU XING SAUS TIRAM VEGETARIAN 140ML,bumbu,botol,140ml,sedang,1,tidak,sedang,"produk vegetarian khusus, produk supermarket"
+4710363035965,ATTACK 1LT AUTO DOUBLECLEAN,deterjen dan pembersih,botol,1l,mahal,1,tidak,sedang,produk impor (Taiwan)
+4710363035989,ATTACK 1LT AUTO SMOOTH CARE,deterjen dan pembersih,botol,1l,mahal,1,tidak,sedang,produk impor (Taiwan)
+8992727004930,ATTACK EASY 1.2KG COOL SENSATION,deterjen dan pembersih,bungkus,1.2kg,mahal,2,ya,tinggi,
+8992727003063,ATTACK EASY 400G,deterjen dan pembersih,bungkus,400g,sedang,3,ya,tinggi,
+8992727004879,ATTACK EASY 700G COOL SENSATION,deterjen dan pembersih,bungkus,700g,sedang,2,ya,tinggi,
+8992727005272,ATTACK JAZ1 BUNGA 57GR SCT,deterjen dan pembersih,sachet,57g,murah,4,ya,tinggi,
+8992727005487,ATTACK SOFT 1.2KG,deterjen dan pembersih,bungkus,1.2kg,mahal,1,ya,sedang,
+8992929761044,B-29 PEWANGI 900 PINK,deterjen dan pembersih,bungkus,900ml,sedang,1,ya,sedang,
+8998899013022,BAYCLIN 100ML LEMON,deterjen dan pembersih,botol,100ml,murah,3,ya,tinggi,
+8998899013121,BAYCLIN 1LT FRESH,deterjen dan pembersih,botol,1l,sedang,2,ya,tinggi,
+8998899013336,BAYCLIN PEMB DAPUR OR 450ML,deterjen dan pembersih,botol,450ml,sedang,1,ya,rendah,nama atau merek tidak jelas
+8998866603898,DAIA 1.8KG SENSASI BUNGA,deterjen dan pembersih,bungkus,1.8kg,mahal,2,ya,tinggi,
+8998866608732,DAIA 1.8KG SOFTENER,deterjen dan pembersih,bungkus,1.8kg,mahal,2,ya,tinggi,
+8998866608664,DAIA 28G SACHET 6S PUTIH,deterjen dan pembersih,pak,6x28g,sedang,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8998866608695,DAIA 34G SACHET 6S SOFTENER,deterjen dan pembersih,pak,6x34g,sedang,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8998866604956,DAIA 65G SENSASI JERUK LEMON 6S,deterjen dan pembersih,pak,6x65g,sedang,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8998866608145,DAIA BARDET 10'SX70G,deterjen dan pembersih,pak,10x70g,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8998866605472,DAIA BATANG 100G BIRU,deterjen dan pembersih,batang,100g,murah,2,ya,sedang,
+8998866609036,DAIA BUNGA 620G,deterjen dan pembersih,bungkus,620g,sedang,3,ya,tinggi,
+8998866601436,DAIA SENSASI EXTRAK BUN BAG 900g,deterjen dan pembersih,bungkus,900g,sedang,3,ya,tinggi,
+4902430302456,DOWNY SF400,deterjen dan pembersih,botol,400ml,mahal,1,tidak,rendah,"produk impor, jarang di warung"
+8998866182171,MAMA LEMON 400ML BTL,deterjen dan pembersih,botol,400ml,sedang,2,ya,tinggi,
+8998866182218,MAMA LEMON 400ML REF,deterjen dan pembersih,bungkus,400ml,sedang,3,ya,tinggi,
+8998866182188,MAMA LEMON 750ML BTL,deterjen dan pembersih,botol,750ml,sedang,1,ya,sedang,
+8999999400958,MOLTO PEWANGI FLO BLISS 900ML,deterjen dan pembersih,bungkus,900ml,mahal,1,ya,sedang,
+8999999402235,MOLTO PEWANGI ORANGE SACHET,deterjen dan pembersih,sachet,,murah,4,ya,tinggi,
+8999999400583,MOLTO PEWANGI VIOLET 900 ML,deterjen dan pembersih,bungkus,900ml,mahal,1,ya,sedang,
+8999999403850,MOLTO SILKY 450R,deterjen dan pembersih,bungkus,450ml,sedang,2,ya,tinggi,
+8999999403492,MOLTO SOFT PURE 450ML,deterjen dan pembersih,bungkus,450ml,sedang,2,ya,tinggi,
+8999999403102,MOLTO SOFT SPRING BLUE 500ML,deterjen dan pembersih,bungkus,500ml,sedang,2,ya,tinggi,
+8999999403225,MOLTO SOFT VIOLET 450ML,deterjen dan pembersih,bungkus,450ml,sedang,2,ya,tinggi,
+8999999400637,MOLTO ULTRA PINK 300 BTL,deterjen dan pembersih,botol,300ml,sedang,2,ya,tinggi,
+8999999401160,MOLTO ULTRA SB GREEN 300 ML,deterjen dan pembersih,bungkus,300ml,sedang,2,ya,tinggi,
+8999999401139,MOLTO ULTRA SEKALI BILAS 300,deterjen dan pembersih,bungkus,300ml,sedang,2,ya,tinggi,
+8998866105125,Mama Lemon 62ml,deterjen dan pembersih,bungkus,62ml,murah,3,ya,sedang,
+8999999042134,Molto All In 1 Blue Ref 6 x 1800ml,deterjen dan pembersih,pak,6x1800ml,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8999999403140,Molto Soft Pink Sch 30ml/288,deterjen dan pembersih,sachet,30ml,murah,3,ya,sedang,
+4800045310012,PRIDE LAUNDRY DETERGENT POWDER 500G,deterjen dan pembersih,bungkus,500g,sedang,1,tidak,tinggi,produk impor (Filipina)
+8999999400002,RINSO ANTI NODA 56 GR,deterjen dan pembersih,sachet,56g,murah,4,ya,tinggi,
+8999999390044,RINSO ANTI NODA IKG,deterjen dan pembersih,bungkus,1kg,mahal,2,ya,tinggi,
+8999999401207,RINSO ANTI NODA SACHET 23 GR,deterjen dan pembersih,sachet,23g,murah,4,ya,tinggi,
+8999999399771,RINSO ANTINODA 75GR,deterjen dan pembersih,sachet,75g,murah,3,ya,tinggi,
+8999999394080,RINSO BUBUK ANTI NODA 1 KG,deterjen dan pembersih,bungkus,1kg,mahal,2,ya,tinggi,
+8999999394073,RINSO BUBUK ANTI NODA 500G,deterjen dan pembersih,bungkus,500g,sedang,3,ya,tinggi,
+8999999392383,RINSO BUBUK ANTI NODA 80G,deterjen dan pembersih,sachet,80g,murah,3,ya,tinggi,
+8999999394219,RINSO EXCEL 1 KG,deterjen dan pembersih,bungkus,1kg,mahal,1,ya,sedang,
+8999999394905,RINSO EXCEL MAGIC HUNT 1KG,deterjen dan pembersih,bungkus,1kg,mahal,1,ya,sedang,
+8999999015725,RINSO LQBT1050,deterjen dan pembersih,botol,,mahal,1,ya,rendah,nama atau merek tidak jelas
+8999999390310,RINSO WARNA 1 KG,deterjen dan pembersih,bungkus,1kg,mahal,1,ya,sedang,
+8999999037314,Rinso Liquid Bottle 6 x 1000ml,deterjen dan pembersih,pak,6x1000ml,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8998866601559,S/K PEMUTIH 500ML APPLE,deterjen dan pembersih,botol,500ml,sedang,1,ya,sedang,
+8998866603065,S/K PEWANGI 1.8LT REF PINK,deterjen dan pembersih,bungkus,1.8l,mahal,1,ya,sedang,
+8998866602716,S/K PEWANGI 450 REF PINK,deterjen dan pembersih,bungkus,450ml,sedang,2,ya,tinggi,
+8998866610056,S/K PEWANGI SB 900ML REF GLAMOUR UN,deterjen dan pembersih,bungkus,900ml,sedang,2,ya,tinggi,
+4800314009692,SCOTCH-BRITE SCRUB SPONGE MINI,rumah tangga,pcs,,murah,1,tidak,tinggi,produk impor (Filipina)
+4800314000118,SCOTCH-BRITE SCRUB SPONGE TRIAL,rumah tangga,pcs,,murah,1,tidak,tinggi,produk impor (Filipina)
+8998866610070,SO KLIN 320 G,deterjen dan pembersih,bungkus,320g,sedang,2,ya,tinggi,
+8998866679633,SO KLIN LANTAI ICE PINE 800ML,deterjen dan pembersih,bungkus,800ml,sedang,2,ya,tinggi,
+8998866805407,SO KLIN LIQUIT CAIR,deterjen dan pembersih,bungkus,,sedang,2,ya,rendah,nama atau merek tidak jelas
+8998866805414,SO KLIN SMART DETERJENT+SOFTENER,deterjen dan pembersih,bungkus,,sedang,2,ya,rendah,nama atau merek tidak jelas
+8998866604369,SO KLIN SOFT UNGU 6`S30 ML,deterjen dan pembersih,pak,6x30ml,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8998866607339,SO KLIN SOFTERGENT 24 G S`6,deterjen dan pembersih,pak,6x24g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8998866600439,SOKLIN HIGIENIS 900 GR,deterjen dan pembersih,bungkus,900g,mahal,1,ya,sedang,
+8998866603850,SOKLIN LANTAI 3X 25ML,deterjen dan pembersih,pak,3x25ml,murah,1,tidak,rendah,"kemasan isi banyak, dijual per bagian"
+8998866608381,SOKLIN SOFT 1XBLS B300 BLUE,deterjen dan pembersih,bungkus,300ml,sedang,2,ya,sedang,
+8998866600293,SOKLIN SOFT 6SCH KUNG,deterjen dan pembersih,pak,isi 6,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8998866605700,SOKLIN SOFT ULTRA GOLD 300 ML,deterjen dan pembersih,bungkus,300ml,sedang,1,ya,sedang,
+8998866610438,SOKLIN SOFTERGEN,deterjen dan pembersih,bungkus,,sedang,2,ya,rendah,nama atau merek tidak jelas
+8999999400231,SUNCLIN PEMUTIH FRESH 100ML,deterjen dan pembersih,botol,100ml,murah,2,ya,sedang,
+8999999036362,SUNLIGHT 400ML BTL A.MALODOR,deterjen dan pembersih,botol,400ml,sedang,2,ya,tinggi,
+8999999400897,SUNLIGHT ACTIVE GEL 200 ML,deterjen dan pembersih,bungkus,200ml,sedang,3,ya,sedang,
+8999999396749,SUNLIGHT CREAM 2IN1 350GR,deterjen dan pembersih,pcs,350g,sedang,1,ya,rendah,nama atau merek tidak jelas
+8999999392215,SUNLIGHT JERUK NIPIS 650G,deterjen dan pembersih,bungkus,650g,sedang,2,ya,sedang,
+8999999021894,SUNLIGHT LIME 90 ML EX 25%,deterjen dan pembersih,bungkus,90ml,murah,4,ya,tinggi,
+8999999394615,SUNLIGHT STRAWBERRY 800ML,deterjen dan pembersih,bungkus,800ml,sedang,2,ya,sedang,
+8999999406950,SUNLIGHT SUPERPELL APPLE 400M,deterjen dan pembersih,bungkus,400ml,sedang,3,ya,tinggi,
+8999999406974,SUNLIGHT SUPERPELL GREEN 800M,deterjen dan pembersih,bungkus,800ml,sedang,2,ya,tinggi,
+8999999406943,SUNLIGHT SUPERPELL YELLOW 800M,deterjen dan pembersih,bungkus,800ml,sedang,2,ya,tinggi,
+8999999407476,SUPERPELL LEMON 400 ML-RVL,deterjen dan pembersih,bungkus,400ml,sedang,3,ya,tinggi,
+8999999407599,SUPERPELL LTI FLORAL 800ML-BTL,deterjen dan pembersih,botol,800ml,mahal,1,ya,sedang,
+4800888126917,SURF N&I BAR KALAMANSI 440G,deterjen dan pembersih,batang,440g,sedang,1,tidak,tinggi,produk impor (Filipina)
+90004131,SURF POW PROMO,deterjen dan pembersih,bungkus,,sedang,1,ya,rendah,nama atau merek tidak jelas
+8999999400460,SURF PUTIH FRESH 60 GR,deterjen dan pembersih,sachet,60g,murah,3,ya,tinggi,
+4800888125095,SURF PWDR W/FC TROPICAL FRESH 2.5KG,deterjen dan pembersih,bungkus,2.5kg,mahal,1,tidak,tinggi,produk impor (Filipina)
+4800888126689,SURF W/FAB CON SUN FRESH 80G,deterjen dan pembersih,sachet,80g,murah,1,tidak,tinggi,produk impor (Filipina)
+4902430069755,TIDE NATURE FRESH POWDER 32G,deterjen dan pembersih,sachet,32g,murah,1,tidak,sedang,merek sudah tidak beredar di Indonesia
+4902430936842,TIDE NATURE FRESH POWDER 55G,deterjen dan pembersih,sachet,55g,murah,1,tidak,sedang,merek sudah tidak beredar di Indonesia
+8999999407865,WIPOL CLASSIC FINE 900ML BTL,deterjen dan pembersih,botol,900ml,mahal,1,ya,sedang,
+8999999407872,WIPOL CLASSIC PINE 450ML RFL,deterjen dan pembersih,bungkus,450ml,sedang,2,ya,tinggi,
+8999999407919,Wipol Classic Pine Ref 800ml/12,deterjen dan pembersih,bungkus,800ml,sedang,2,ya,sedang,
+8998009720437,CAMP BIGTIME CHOCO,es krim,pcs,,sedang,2,ya,tinggi,
+8998009710186,CAMP CONCERTO STRAW CHEESECAKE 110M,es krim,pcs,110ml,sedang,2,ya,tinggi,
+8998009700163,CAMP DIDI CUP C-STRAW 60,es krim,cup,60ml,murah,3,ya,tinggi,
+8998009700408,CAMP HULA-HULA CUP KOPYOR,es krim,cup,,murah,2,ya,tinggi,
+8998009720420,CAMP LILIPUT 35ML CKL,es krim,pcs,35ml,murah,3,ya,tinggi,
+8998009700392,CAMP SPONGE BOB CHOC BANANA CUP,es krim,cup,,murah,2,ya,sedang,
+8999999280215,PADDLE POP CHOCOLATE VOLT 60ML,es krim,pcs,60ml,murah,3,ya,tinggi,
+8999999003302,PADDLE POP RAINBOW PEAK 60 ML,es krim,pcs,60ml,murah,3,ya,tinggi,
+8999999273293,WALL S CONELLO MINTTO BE,es krim,pcs,,sedang,2,ya,sedang,
+8999999278274,WALL S VIENNETA KURMA 600ML,es krim,kotak,600ml,mahal,1,ya,sedang,
+8999999043346,WALL'S CORNETTO DICE R. VELVET 120M,es krim,pcs,120ml,sedang,2,ya,tinggi,
+8999999043339,WALL'S MAGNUM CLASIC&HONEY COMB 45M,es krim,pcs,45ml,sedang,2,ya,sedang,
+8999999034627,WALL'S MINI CORNETTO 6'S STRW&VAN,es krim,kotak,isi 6,mahal,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8999999008246,WALL'S P-POP 69ML FRUITY ZAP,es krim,pcs,69ml,murah,3,ya,tinggi,
+8999999277918,WALLS NYDAILY HCAL BLUE 400,es krim,cup,400ml,mahal,1,ya,rendah,nama atau merek tidak jelas
+8999999272173,WALLS POPULAIRE STRAWB&VANILA,es krim,cup,,mahal,1,ya,rendah,nama atau merek tidak jelas
+8999999502454,paddle pop pink lava,es krim,pcs,,murah,3,ya,sedang,
+8991002101128,ABC KOPI BROWNIES 5'SX30G BOX,kopi,kotak,5x30g,sedang,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8991002101265,ABC KOPI PLUS 18 GR SCT,kopi,sachet,18g,murah,3,ya,tinggi,
+8991002101739,ABC KOPI WHITE 30'S BAG,kopi,pak,isi 30,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002101333,ABC KOPI WHITE COFFEE INSTAN 20GX10,kopi,pak,10x20g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002101340,ABC KOPI WHITE INS 20'S BAG,kopi,pak,isi 20,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002101630,"ABC KOPI,GULA PCK 10X31G",kopi,pak,10x31g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+9556771000318,AC INSTANT COFFEE TARIK 15X40G,kopi,pak,15x40g,mahal,1,tidak,tinggi,produk impor (Malaysia)
+9555401202085,APO 8'S TRAY COFFEE (3090M),kopi,pak,isi 8,mahal,1,tidak,tinggi,produk impor (Malaysia)
+8997006330601,CENTURY 220G COFFEE CAPUCCINO,kopi,bungkus,220g,mahal,1,tidak,rendah,"merek tidak jelas, kemasan besar"
+8991668179295,COFFEE BREAK 3IN1 COFFEEMIX 100G,kopi,bungkus,100g,sedang,1,ya,rendah,nama atau merek tidak jelas
+8850124011039,COFFEE MATE 400G BTL,kopi,botol,400g,mahal,1,tidak,tinggi,produk impor (Thailand)
+8850124024688,COFFEE MATE C C HAZELNUT SWEETENED 210G,kopi,botol,210g,mahal,1,tidak,tinggi,produk impor (Thailand)
+9311931024302,COFFEEMIX ICE 30 GR,kopi,sachet,30g,murah,2,ya,sedang,
+8992802630047,ENTRASOL 6X50G DIET COFFEE CARAMEL,kopi,kotak,6x50g,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+90011047,FRENCH ROAST COFFEE BEANS 1KG,kopi,bungkus,1kg,mahal,1,tidak,tinggi,kemasan besar atau grosir
+8991668119222,GELATIK KOPI SUSU 24GX20'S,kopi,pak,20x24g,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8888240000583,GOLD EAGLE COFFEEMIX 1000G,kopi,bungkus,1000g,mahal,1,tidak,tinggi,produk impor (Singapura/Malaysia)
+8991002103948,GOOD DAY 30'S CARREBIAN NUT,kopi,pak,isi 30,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002103542,GOOD DAY 30'S ORIGINAL,kopi,pak,isi 30,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002103641,GOOD DAY 30G FREZE CHOC ORANGE,kopi,sachet,30g,murah,3,ya,tinggi,
+8991002103740,GOOD DAY 30G FREZE MOCAFRIO,kopi,sachet,30g,murah,4,ya,tinggi,
+8991002103429,GOOD DAY 5'S BOX 3IN1 COOLIN,kopi,kotak,isi 5,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002121089,GOOD DAY BOTOL,kopi,botol,,sedang,2,ya,sedang,
+8991002103825,GOOD DAY CHOCOCINNO BOX 5x20g,kopi,kotak,5x20g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002103238,GOOD DAY MOCACINNO 10X,kopi,pak,isi 10,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002121058,GOOD DAY WHITE VANI TPK 200ML,kopi,kotak,200ml,murah,2,ya,sedang,
+9311931184501,INDOCAFE COFFE- O 5S,kopi,kotak,isi 5,sedang,1,tidak,sedang,produk impor (Australia)
+9311931184037,INDOCAFE COFFEE MIXBOX 5X20g,kopi,kotak,5x20g,sedang,1,tidak,tinggi,produk impor (Australia)
+9311931024142,INDOCAFE COFFEEMIX JAHE 25 GR,kopi,sachet,25g,murah,2,ya,sedang,
+9311931192506,INDOCAFE OB RF 50GR,kopi,bungkus,50g,sedang,1,ya,sedang,
+8991582175733,JOA KOPI GINSENG 27G X 10'S,kopi,pak,10x27g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002109148,KAPAL API 10'S FRESCO SUSU,kopi,pak,isi 10,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002105669,KAPAL API 20'S KOPI SUSU,kopi,pak,isi 20,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002115118,KAPAL API 5'S GRANDE BOX,kopi,kotak,isi 5,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002105683,KAPAL API 5'S SUSU BOX,kopi,kotak,isi 5,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8991002105348,KAPAL API KOPI ACEH 75GR,kopi,bungkus,75g,sedang,1,ya,sedang,
+8991002105409,KAPAL API KOPI BUBUKPCK 380g,kopi,bungkus,380g,mahal,2,ya,tinggi,
+8991002105430,KAPAL API KOPI PCK 65g,kopi,bungkus,65g,sedang,4,ya,tinggi,
+8991002105584,KAPAL API SPECIAL 7 gram 5 s,kopi,pak,5x7g,murah,1,tidak,sedang,"kemasan isi banyak, dijual per bagian"
+8991002105485,KAPAL API SPECIAL MI PCK 10X25g,kopi,pak,10x25g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8992942119150,KINO HARD KOPI 63G,permen dan coklat,bungkus,63g,sedang,1,ya,sedang,
+8994543012397,KOPI 28 75G CLASSIC,kopi,bungkus,75g,sedang,1,ya,rendah,nama atau merek tidak jelas
+8992138211507,KOPI BALI BOLA DUNIA 50 GR,kopi,bungkus,50g,sedang,2,ya,sedang,
+8994231100405,KOPI BANYUATIS 2 IN 1,kopi,sachet,,murah,1,ya,rendah,nama atau merek tidak jelas
+8995104700050,KOPI CAP KAPAL PESIAR 40G,kopi,bungkus,40g,murah,1,ya,rendah,nama atau merek tidak jelas
+8995104700357,KOPI CAP KAPAL PESIAR 800G GOLD,kopi,bungkus,800g,mahal,1,tidak,tinggi,kemasan besar atau grosir
+8951047000817,KOPI KAPAL PESIAR 3IN1 20G X 25'S,kopi,pak,25x20g,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8994171101043,KOPI LUWAK 165G BAG,kopi,bungkus,165g,sedang,2,ya,sedang,
+8994171101715,KOPI LUWAK 165G BAG ARABIKA,kopi,bungkus,165g,sedang,1,ya,sedang,
+8994171101692,KOPI LUWAK 200G ARABIKA,kopi,bungkus,200g,mahal,1,ya,sedang,
+8994171101081,KOPI LUWAK 25GX10'S KOPI+GULA,kopi,pak,10x25g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8994171101029,KOPI LUWAK 30GR,kopi,sachet,30g,murah,2,ya,sedang,
+8994171101074,KOPI LUWAK WHITE KOFFIE 20GX10'S CA,kopi,pak,10x20g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8994171101760,KOPI LUWAK WHITE KOFFIE 20GX10'S VA,kopi,pak,10x20g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8994171101753,KOPI LUWAK WHITE KOFFIE 340G LS,kopi,bungkus,340g,mahal,1,tidak,sedang,"kemasan besar, dijual per bagian"
+8992138222503,KOPI WARUNG POJOK 250,kopi,bungkus,250,sedang,1,ya,rendah,nama atau merek tidak jelas
+8991002105447,Kapal Api Mutu Khusus,kopi,bungkus,,sedang,3,ya,sedang,
+8992957352078,LAGIE GOOD DAY 250G MILK,kopi,bungkus,250g,mahal,1,tidak,rendah,merek tidak jelas
+8992957352122,LAGIE GOOD DAY 250G PANDAN,kopi,bungkus,250g,mahal,1,tidak,rendah,merek tidak jelas
+8992696423275,NESCAFE CAFE BROWN 4'SX22G BOX,kopi,kotak,4x22g,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+4800361339209,NESCAFE CLASSIC 200G (JAR),kopi,botol,200g,mahal,1,tidak,tinggi,produk impor (Filipina)
+8992696408289,NESCAFE CLASSIC 2X10'S RM FOLD BOX,kopi,kotak,2x10,sedang,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+8992696419162,NESCAFE CLASSIC 60X2G,kopi,pak,60x2g,mahal,1,tidak,tinggi,"kemasan isi banyak, dijual per bagian"
+4800361335980,NESCAFE CLASSIC COFFEE FIRST PICK 200G,kopi,bungkus,200g,mahal,1,tidak,tinggi,produk impor (Filipina)
+4800361336000,NESCAFE CLASSIC COFFEE FIRST PICK 50G,kopi,bungkus,50g,mahal,1,tidak,tinggi,produk impor (Filipina)

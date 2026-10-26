@@ -11,7 +11,13 @@ data/demo_5warung/
 
 # Katalog induk IPOS (23 MB) beserta turunannya. Sumbernya berkas pihak ketiga,
 # turunannya dapat dibangkitkan ulang dari berkas tersebut.
-data/induk/
+data/induk/*
+
+# Kecuali hasil klasifikasi: dikerjakan manual, tidak bisa dibangkitkan ulang
+# dari skrip. Potongan ikut disimpan karena menjadi masukan validasinya.
+!data/induk/klasifikasi.csv
+!data/induk/klasifikasi/
+!data/induk/potongan/
 
 .DS_Store
 Thumbs.db
